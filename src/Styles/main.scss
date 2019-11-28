@@ -1,0 +1,20 @@
+// global
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./mixins.scss";
+// components
+@import "../Components/Header/styles.scss";
+@import "../Components/Hamburguer/styles.scss";
+@import "../Components/Iconbutton/styles.scss";
+@import "../Components/LandingModule/styles.scss";
+@import "../Components/ThreeElement/styles.scss";
+
+
+// containers
+@import "../Containers/Home/styles.scss";
+
+
+// remove blue line selected for google chrome
+* {
+	outline: none;
+}

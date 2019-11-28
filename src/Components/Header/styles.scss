@@ -1,0 +1,38 @@
+
+.header {
+     
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    overflow: hidden;
+    @include all-ease-custom(.2s);
+
+    &__show {
+        background-color: $complementary;
+        -webkit-box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.1);
+        box-shadow: 0px 5px 16px -2px rgba(0,0,0,0.1);
+        height: 120px;
+    }
+
+    &__hide {
+        background-color: transparent;
+        height:0px;
+    }
+
+    &__logo {
+        padding: 0px 10px 0px 10px;
+    }
+
+    &__btn-container {
+        margin-right: 135px;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+}

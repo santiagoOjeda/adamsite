@@ -1,0 +1,58 @@
+
+.home{
+
+    &__landing {
+        background-color: $primary;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+
+        &__container-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 100vh;
+            
+            &__logo {
+                z-index: 2;
+            }
+            svg {
+                position: absolute;
+                width: 40%;
+            }
+        }
+
+        &__container-text {
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+
+            h1 {
+                font-size: 90px;
+                color: $complementary;
+                font-style: italic;
+                font-weight: 700;
+                margin: 0;
+                padding: 0;
+            }
+
+            h5 {
+                color: $complementary;
+                line-height: 37px;
+                font-weight: 600;
+                margin: 0;
+                padding: 0 0 0 10px;
+                letter-spacing: 3px;
+                font-size: 20px;
+
+                span {
+                    color:$secoundary;
+                }
+            }
+        }
+    }
+}
