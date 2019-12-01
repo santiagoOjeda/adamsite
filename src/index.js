@@ -4,10 +4,20 @@ import * as serviceWorker from "./serviceWorker";
 import "./Resources/Lib/Normalize/normalize.css";
 import './Styles/main.scss';
 import { Home } from "./Containers";
+import { UIcontextProvider } from './Store/UiContext';
+
+
 
 
 const App = () => {
-  return <Home></Home>;
+
+
+
+  return (
+    <UIcontextProvider>
+      <Home />
+    </UIcontextProvider>
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));

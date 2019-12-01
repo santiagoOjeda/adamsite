@@ -45,6 +45,10 @@
     &__right-container {
         width: 65%;
         height: calc(100vh - 120px);
+        display: flex;
+    justify-content: center;
+    align-items: baseline;
+
         overflow: hidden;
         img {
             width: 100%;

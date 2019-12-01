@@ -4,5 +4,6 @@ import Hamburguer from './Hamburguer';
 import IconButton from './IconButton';
 import LandingModule from './LandingModule';
 import ThreeElement from './ThreeElement';
+import Menu from './Menu';
 
-export { Header, Logo, Hamburguer, IconButton, LandingModule, ThreeElement };
+export { Header, Logo, Hamburguer, IconButton, LandingModule, ThreeElement, Menu };

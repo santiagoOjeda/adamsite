@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     position: fixed;
+    z-index: 300;
     top: 40px;
     background: #fff;
     width: 40px;
@@ -21,7 +22,7 @@
             width: 24px;
             height: 3px;
             position: relative;
-            z-index: 2;
+            z-index: 300;
             display: block;
             margin-bottom: 4px;
             top: 3px;
@@ -54,7 +55,7 @@
         width: 24px;
         height: 3px;
         position: relative;
-        z-index: 2;
+        z-index: 300;
         display: block;
         margin-bottom: 4px;
         top: 3px;

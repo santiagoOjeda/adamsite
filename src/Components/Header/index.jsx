@@ -4,7 +4,7 @@ import logoImg from '../../Resources/Images/logo.svg';
 import insLogo from '../../Resources/Images/instagram.svg';
 import envLogo from '../../Resources/Images/black-envelope.svg';
 
-const Header = ({show}) => {
+const Header = ({show, handleClick}) => {
     
 
     return (
@@ -14,7 +14,7 @@ const Header = ({show}) => {
                 <IconButton srcIcon={insLogo}/>
                 <IconButton srcIcon={envLogo}/>
             </div>
-            <Hamburguer/>
+            <Hamburguer />
         </header>
     );
 };

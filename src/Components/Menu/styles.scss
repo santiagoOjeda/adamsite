@@ -1,0 +1,46 @@
+.menu {
+    background-color: $primary;
+    width: 100%;
+    height: 0;
+    position: fixed; 
+    top: 0;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    &__open {
+        height: 100vh;
+    }
+
+    &__container{
+        
+        height: calc(100vh - 100px);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 70px;
+
+        &__ul {
+            &__li{
+                &__spaced {
+                    position: relative; 
+                    left: 200px;
+                }
+            }
+        }
+    }
+    
+
+    &__footer {
+        background-color: $secoundary;
+        height: 100px;
+        width: 100%;
+    }
+}
