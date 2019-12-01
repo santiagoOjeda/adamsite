@@ -1,8 +1,10 @@
 import React from 'react';
+import { useUIcontextStateValue } from '../../Store/UiContext';
 
 const Menu = ({open}) => {
+    const [{ submenu }, dispatch] = useUIcontextStateValue();
     return (
-        <div className={open ? ("menu menu__open"):("menu")}>
+        <div className={submenu ? ("menu menu__open"):("menu")}>
             <div className="menu__container">
                 <ul className="menu__container__ul">
                     <li className="menu__container__ul__li menu__container__ul__li__spaced">item one</li>

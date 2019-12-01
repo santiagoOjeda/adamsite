@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { UIcontextProvider, useUIcontextStateValue } from '../../Store/UiContext';
+import { useUIcontextStateValue } from '../../Store/UiContext';
 import { Header, Logo, LandingModule, Menu } from '../../Components';
 import hellaBG from '../../Resources/Images/hellaBG.svg';
 import hellaProductBG from '../../Resources/Images/hellaProductBG.svg';
@@ -17,25 +17,14 @@ const Home = (props) => {
     
 
     useEffect(()=>{
-        
         window.onscroll = function() {
             if(window.pageYOffset === 0) {
                 setShowHeader(false);
             
             } else {
                 setShowHeader(true);
-                dispatch(
-                    {
-                    type: "toogleSubmenu",
-                    payload: {
-                        submenu: true
-                    }
-                }
-                );
             }
           }
-
-
     });
 
 
