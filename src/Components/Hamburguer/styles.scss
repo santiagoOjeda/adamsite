@@ -14,6 +14,11 @@
     border: solid 3px #4053ff;
     box-sizing: border-box;
     @include all-ease-custom(.2s);
+
+    @include breakpoint ("small"){ 
+        right: 15px;
+        top: 15px;
+    }
     
 
     &__active {

@@ -6,12 +6,7 @@ import './Styles/main.scss';
 import { Home } from "./Containers";
 import { UIcontextProvider } from './Store/UiContext';
 
-
-
-
 const App = () => {
-
-
 
   return (
     <UIcontextProvider>

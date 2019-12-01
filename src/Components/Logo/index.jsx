@@ -7,15 +7,10 @@ import { useSpring, animated as a, interpolate } from 'react-spring';
 const Logo = props => {
 
     const [{ st, xy }, set] = useSpring(() => ({ st: 0, xy: [0, 0] }))
-    const interpBg2 = xy.interpolate((x, y) => `perspective(400px) rotateY(${x / 50}deg) rotateX(${-y / 50}deg)`)
-    const interpBg = xy.interpolate((x, y) => `perspective(400px) rotateY(${x / 140}deg) rotateX(${-y / 140}deg)`)
+    const interpBg2 = xy.interpolate((x, y) => `perspective(400px) rotateY(${x / 20}deg) rotateX(${-y / 20}deg)`)
+    const interpBg = xy.interpolate((x, y) => `perspective(400px) rotateY(${x / 50}deg) rotateX(${-y / 50}deg)`)
     const interpFace = st.interpolate(o => `translate(90,${105 + o / 4})`)
-    const interpEye = interpolate([st, xy], (o, xy) => `translate(${xy[0] / 30 + 157},${xy[1] / 30 + 80 + o / 2}) scale(0.8)`)
-    const interpIris = interpolate([st, xy], (o, xy) => `translate(${xy[0] / 30},${xy[1] / 30 + -10 + o / 8})`)
     const interpPupil = interpolate([st, xy], (o, xy) => `translate(${xy[0] / 25},${xy[1] / 25 + -10 + o / 8})`)
-    const interpSpot = interpolate([st, xy], (o, xy) => `translate(${8 + -xy[0] / 80},${-xy[1] / 80 + -10 + o / 8})`)
-    const interpMouth = interpolate([st, xy], (o, xy) => `translate(${xy[0] / 18 + 188},${xy[1] / 20 + 230 + o / 1.7}) scale(0.8)`)
-    const interpHair = st.interpolate(o => `translate(79,${o / 4})`)
     const onMove = useCallback(({ clientX: x, clientY: y }) => set({ xy: [x - window.innerWidth / 2, y - window.innerHeight / 2] }), [])
     const onScroll = useCallback(e => set({ st: e.target.scrollTop / 30 }), [])
 

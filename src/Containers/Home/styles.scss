@@ -7,12 +7,20 @@
         height: 100vh;
         display: flex;
 
+        @include breakpoint ("small"){ 
+            flex-direction: column;
+        }
+
         &__container-logo {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 50%;
             height: 100vh;
+
+            @include breakpoint ("small"){ 
+                width: 100%;
+            }
             
             &__logo {
                 z-index: 2;
@@ -20,6 +28,11 @@
             svg {
                 position: absolute;
                 width: 40%;
+
+                @include breakpoint ("small"){ 
+                    width: 80%;
+                }
+                
             }
         }
 
@@ -30,6 +43,10 @@
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
+
+            @include breakpoint ("small"){ 
+                display: none;
+            }
 
             h1 {
                 font-size: 90px;
