@@ -1,20 +1,20 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Lottie from 'react-lottie';
 
 
-import {ThreeElement} from '../';
+import { ThreeElement, MainButton } from '../';
 
-const LandingModule = ({title, subtitle, titleBg, productBg, color}) => {
+const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, buttonText, buttonBorderColor, bgBtnColor }) => {
 
 
     const icon = require('../../Resources/Animations/hipster.json');
-    
-   const [defaultOptions, setSefaultOptions] = useState({
+
+    const [defaultOptions, setSefaultOptions] = useState({
         loop: true,
         autoplay: true,
-        animationData:icon,
+        animationData: icon,
         rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice',
+            preserveAspectRatio: 'xMidYMid slice',
         },
     });
 
@@ -26,18 +26,22 @@ const LandingModule = ({title, subtitle, titleBg, productBg, color}) => {
 
     return (
         <section className="landing-module">
-           
+
             <div className="landing-module__left-container">
                 <div className="landing-module__left-container__bg">
                     <h1 style={styles}>{title}</h1>
-                    <img src={titleBg} alt="titleBg"/>
+                    <img src={titleBg} alt="titleBg" />
                     <p style={styles}>{subtitle}</p>
+                </div>
+                <div className="landing-module__left-container__btn-container">
+                    <img src={iconImg} alt="icon" />
+                    <MainButton text={buttonText} borderColor={buttonBorderColor} bgBtnColor={bgBtnColor} />
                 </div>
             </div>
             <div className="landing-module__right-container">
-            <ThreeElement width={1000} height={window.innerHeight - 100}/>
-            {/* <Lottie width="50px" height="50px" options={defaultOptions} ></Lottie> */}
-                <img src={productBg} alt="productBg"/>
+                <ThreeElement width={1000} height={window.innerHeight - 100} />
+                {/* <Lottie width="50px" height="50px" options={defaultOptions} ></Lottie> */}
+                <img src={productBg} alt="productBg" />
             </div>
         </section>
     );

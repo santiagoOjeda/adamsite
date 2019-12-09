@@ -1,0 +1,50 @@
+.container-main-button {
+   margin-top: 10%;
+}
+
+.main-btn {
+
+        border: solid 4px gray;
+        padding: 10px 30px;
+        width: 197px;
+        font-weight: bold;
+        color: gray;
+        margin-top: 5%;
+        position: relative;
+        z-index: 10;
+        width: 200px;
+        background-color: #fff;
+        font-size: 22px;
+        box-sizing: border-box;
+
+        &__bg {
+            width: 100px;
+            height: 45px;
+            border: 3px solid gray;
+            position: relative;
+            top: -34px;
+            left: 10px;
+            box-sizing: border-box;
+            z-index: 1;
+            width: 200px;
+            display: flex;
+            overflow: hidden;
+
+            &__container-lines {
+                width: 400px;
+                position: absolute;
+            }
+
+            &__line {
+                width: 4px;
+                height: 100px;
+                background-color: gray;
+                transform: rotate(-45deg);
+                margin-right: 7px;
+                position: relative;
+                float: left;
+                top: -20px;
+            }
+        }
+  
+}

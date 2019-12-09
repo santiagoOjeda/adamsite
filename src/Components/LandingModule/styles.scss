@@ -47,7 +47,8 @@
         }
 
         p {
-            font-weight: 700;
+            font-weight: 900;
+            font-size: 20px;
             color: #00c691;
             line-height: 27px;
             margin-left: 20px;
@@ -59,7 +60,17 @@
             padding: 35px;
             }
         }
-    
+
+        &__btn-container
+        {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: normal;
+            align-items: flex-start;
+            margin: 10% 0;
+       
+        }
     }
 
     &__right-container {

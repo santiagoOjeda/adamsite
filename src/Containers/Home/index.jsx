@@ -5,6 +5,9 @@ import hellaBG from '../../Resources/Images/hellaBG.svg';
 import hellaProductBG from '../../Resources/Images/hellaProductBG.svg';
 import bicycleBG from '../../Resources/Images/bicycleBG.svg';
 import bicycleProductBG from '../../Resources/Images/bicycleProductBG.svg';
+import sligIcon from '../../Resources/Images/sligIcon.svg';
+import bicicleIcon from '../../Resources/Images/bicicleIcon.svg';
+import surfIcon from '../../Resources/Images/surfIcon.svg';
 
 
  
@@ -41,8 +44,13 @@ const Home = (props) => {
                 title="HELLA SLINGSHOTS" 
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
                 titleBg={hellaBG}
+                iconImg={sligIcon}
                 productBg={hellaProductBG}
+                buttonBorderColor='#00c691'
+                bgBtnColor="#FFF28B"
+                buttonText="SEE PROJECT"
                 color='#00c691'
+                buttonText="text"
             />
             <LandingModule 
                 title="BICYCLE BOLTS" 
@@ -51,14 +59,25 @@ const Home = (props) => {
                 opportunistic thievery."
                 titleBg={bicycleBG}
                 productBg={bicycleProductBG}
+                buttonBorderColor='#6140FF'
+                bgBtnColor="#FFF28B"
+                buttonText="SEE PROJECT"
                 color='#6140FF'
+                iconImg={bicicleIcon}
+                buttonText="text"
+                
             />
             <LandingModule 
                 title="SURF BRAIN" 
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
                 titleBg={hellaBG}
                 productBg={hellaProductBG}
+                buttonText="SEE PROJECT"
+                buttonBorderColor='#2AD9B1'
+                bgBtnColor="#FFF28B"
                 color='#2AD9B1'
+                iconImg={surfIcon}
+                buttonText="text"
             /> 
         </section>
     );
