@@ -4,15 +4,15 @@ import Lottie from 'react-lottie';
 
 import { ThreeElement, MainButton } from '../';
 
-const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, buttonText, buttonBorderColor, bgBtnColor }) => {
+const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, btnText, buttonBorderColor, bgBtnColor, textPos, isThreeDimensional, iconLottie, id }) => {
 
 
-    const icon = require('../../Resources/Animations/hipster.json');
+
 
     const [defaultOptions, setSefaultOptions] = useState({
         loop: true,
         autoplay: true,
-        animationData: icon,
+        animationData: iconLottie,
         rendererSettings: {
             preserveAspectRatio: 'xMidYMid slice',
         },
@@ -20,13 +20,13 @@ const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, bu
 
 
     var styles = {
-        color: color
+        color: color,
+        top: textPos
     };
 
 
     return (
-        <section className="landing-module">
-
+        <section className="landing-module" id={id}>
             <div className="landing-module__left-container">
                 <div className="landing-module__left-container__bg">
                     <h1 style={styles}>{title}</h1>
@@ -35,13 +35,20 @@ const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, bu
                 </div>
                 <div className="landing-module__left-container__btn-container">
                     <img src={iconImg} alt="icon" />
-                    <MainButton text={buttonText} borderColor={buttonBorderColor} bgBtnColor={bgBtnColor} />
+                    <MainButton buttonText={btnText} borderColor={buttonBorderColor} bgBtnColor={bgBtnColor} />
                 </div>
             </div>
             <div className="landing-module__right-container">
-                <ThreeElement width={1000} height={window.innerHeight - 100} />
-                {/* <Lottie width="50px" height="50px" options={defaultOptions} ></Lottie> */}
                 <img src={productBg} alt="productBg" />
+                {isThreeDimensional ? (
+                    <ThreeElement width={1000} height={window.innerHeight - 100} />
+                ) : (
+                        <div style={{ position: "absolute", paddingTop: "30vh" }}>
+                            <Lottie width="400px" options={defaultOptions} ></Lottie>
+                        </div>
+                    )}
+
+
             </div>
         </section>
     );

@@ -1,0 +1,13 @@
+.up-down {
+    background-color: white;
+    position: fixed;
+    bottom: 70px;
+    right: 69px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}

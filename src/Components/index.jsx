@@ -6,5 +6,6 @@ import LandingModule from './LandingModule';
 import ThreeElement from './ThreeElement';
 import Menu from './Menu';
 import MainButton from './MainButton';
+import UpDown from './UpDown';
 
-export { Header, Logo, Hamburguer, IconButton, LandingModule, ThreeElement, Menu, MainButton };
+export { Header, Logo, Hamburguer, IconButton, LandingModule, ThreeElement, Menu, MainButton, UpDown };

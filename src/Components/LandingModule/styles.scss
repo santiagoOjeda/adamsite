@@ -23,12 +23,13 @@
         }
 
         h1 {
-                position: absolute;
+                position: relative;
                 color: #00c691;
-                width: 100px;
+                width: 900px;
                 z-index: 2;
                 margin: 0;
-                font-size: 80px;
+                top: 195px;
+                font-size: 93px;
                 line-height: 75px;
                 @include breakpoint("small") {
                     font-size: 43px;

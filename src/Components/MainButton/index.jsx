@@ -1,10 +1,10 @@
 import React from 'react';
 
-const MainButton = ({ text, borderColor, bgBtnColor }) => {
+const MainButton = ({ buttonText, borderColor, bgBtnColor }) => {
     return (
         <div className="container-main-button">
             <button className="main-btn" style={{ borderColor: borderColor, color: borderColor }}>
-                {text}
+                {buttonText}
             </button>
             <div className="main-btn__bg" style={{ borderColor: borderColor }}>
                 <div className="main-btn__bg__container-lines">
