@@ -16,9 +16,14 @@ const UpDown = () => {
 
     return (
         <div className="up-down">
-            <h1>{index}</h1>
-            <a href={"#" + index} onClick={pageUp} >up</a>
-            <a href={"#" + index} onClick={pageDown} >down</a>
+            {/* <h1>{index}</h1> */}
+            <img src="../../Resources/Images/logo.svg" alt="" />
+            <a href={"#" + index} onClick={pageUp} >
+                <img src="../../Resources/Images/down-arrow-icon.svg" alt="arrow up" />
+            </a>
+            <a href={"#" + index} onClick={pageDown} >
+                <img src="../../Resources/Images/bicicleIcon.svg" alt="arrow up" />
+            </a>
         </div>
     );
 };
