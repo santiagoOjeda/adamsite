@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import arrowUp from '../../Resources/Images/up-arrow-icon.svg'
+import arrowDown from '../../Resources/Images/down-arrow-icon.svg'
 
 
 
@@ -16,13 +18,12 @@ const UpDown = () => {
 
     return (
         <div className="up-down">
-            {/* <h1>{index}</h1> */}
             <img src="../../Resources/Images/logo.svg" alt="" />
             <a href={"#" + index} onClick={pageUp} >
-                <img src="../../Resources/Images/down-arrow-icon.svg" alt="arrow up" />
+                <img src={arrowUp} alt="arrow up" />
             </a>
             <a href={"#" + index} onClick={pageDown} >
-                <img src="../../Resources/Images/bicicleIcon.svg" alt="arrow up" />
+                <img src={arrowDown} alt="arrow down" />
             </a>
         </div>
     );

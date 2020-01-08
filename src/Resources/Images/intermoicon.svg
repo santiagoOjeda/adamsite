@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137" height="82.617" viewBox="0 0 137 82.617">
+  <g id="Grupo_1140" data-name="Grupo 1140" transform="translate(-198.5 -790.828)">
+    <rect id="Rectángulo_144" data-name="Rectángulo 144" width="137" height="64.348" rx="18" transform="translate(198.5 790.828)" fill="#fe564a"/>
+    <g id="Grupo_159" data-name="Grupo 159" transform="translate(211.097 797.375)">
+      <path id="Trazado_196" data-name="Trazado 196" d="M392,467.6l18.8,18.8,18.8-18.8Z" transform="translate(-354.281 -410.326)" fill="#fe564a"/>
+      <g id="Grupo_158" data-name="Grupo 158" transform="translate(0 0)">
+        <path id="Trazado_198" data-name="Trazado 198" d="M116.549,139.8a7.74,7.74,0,0,0-5.42-3.8,7.893,7.893,0,0,0-9.138,6.109,8.739,8.739,0,0,0-.117,2.847,14.552,14.552,0,0,0,2.574,6.447,27.778,27.778,0,0,0,4.237,4.835,45.439,45.439,0,0,0,7.864,5.823,46.452,46.452,0,0,0,7.864-5.823,27.311,27.311,0,0,0,4.237-4.835,14.2,14.2,0,0,0,2.574-6.447,8.724,8.724,0,0,0-.117-2.847A7.91,7.91,0,0,0,121.969,136,7.714,7.714,0,0,0,116.549,139.8Z" transform="translate(-101.81 -121.714)" fill="#fff"/>
+        <text id="hmf" transform="translate(34.458 37)" fill="#fff" font-size="40" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500"><tspan x="0" y="0">hmf</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

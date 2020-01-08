@@ -9,7 +9,12 @@ import sligIcon from '../../Resources/Images/sligIcon.svg';
 import bicicleIcon from '../../Resources/Images/bicicleIcon.svg';
 import surfIcon from '../../Resources/Images/surfIcon.svg';
 import surfBG from '../../Resources/Images/surfProductBG.svg';
+import hellaMoreBG from '../../Resources/Images/hella-bg-product.svg';
 import surfBGProd from '../../Resources/Images/surfRealPRoductBG.svg';
+import intermodProductBG from '../../Resources/Images/intermodProductBG.svg';
+import intmdBg from '../../Resources/Images/intmdBg.svg';
+import intermoicon from '../../Resources/Images/intermoicon.svg';
+import intIcon from '../../Resources/Images/intIcon.svg';
 
 
 
@@ -38,6 +43,7 @@ const Home = (props) => {
 
 
     const icon = require('../../Resources/Animations/adam.json');
+    const lottieLaptop = require('../../Resources/Animations/laptop.json');
 
     return (
         <section className="home" >
@@ -56,7 +62,6 @@ const Home = (props) => {
             </section> 
             <LandingModule 
                 id="2"
-
                 title="HELLA SLINGSHOTS" 
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
                 titleBg={hellaBG}
@@ -101,30 +106,47 @@ const Home = (props) => {
                 buttonBorderColor='#2AD9B1'
                 bgBtnColor="#FFF28B"
                 color='#2AD9B1'
-                // iconLottie={icon}
                 textPos="125px"
                 iconImg={surfIcon}
                 buttonText="text"
-                isThreeDimensional={false}
+                isThreeDimensional={true}
             /> 
 
              <LandingModule 
-                id="4"
-                title="SURF BRAIN" 
+                id="5"
+                title="HELLA MORE
+                FUNNER" 
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
-                titleBg={surfBG}
-                
+                titleBg={hellaMoreBG}
                 btnText="SEE PROJECT"
-                buttonBorderColor='#2AD9B1'
-                bgBtnColor="#FFF28B"
-                color='#2AD9B1'
+                buttonBorderColor='#F26941'
+                bgBtnColor="#FFE848"
+                color='#F26941'
                 iconLottie={icon}
                 textPos="125px"
-                iconImg={surfIcon}
+                iconImg={intermoicon}
                 buttonText="text"
                 isThreeDimensional={false}
             /> 
-
+      
+      <LandingModule 
+                id="5"
+                title="INTRMODL" 
+                subtitle="This is a logistics project in which we delivered
+                a fleet management solution for intermodal yards."
+                titleBg={intmdBg}
+                btnText="SEE PROJECT"
+                buttonBorderColor='#2AD9B1'
+                bgBtnColor="#FFF28B"
+                productBg={intermodProductBG}
+                bgBtnColor="#EF817F"
+                color='#196FBC'
+                textPos="125px"
+                iconLottie={lottieLaptop}
+                iconImg={intIcon}
+                buttonText="text"
+                isThreeDimensional={false}
+            /> 
 
         </section>
     );
