@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Lottie from 'react-lottie';
 
 
+
+
 import { ThreeElement, MainButton } from '../';
+
 
 const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, btnText, buttonBorderColor, bgBtnColor, textPos, isThreeDimensional, iconLottie, id }) => {
 
@@ -43,8 +46,8 @@ const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, bt
                 {isThreeDimensional ? (
                     <ThreeElement width={1000} height={window.innerHeight - 100} />
                 ) : (
-                        <div style={{ position: "absolute", paddingTop: "30vh" }}>
-                            <Lottie width="400px" options={defaultOptions} ></Lottie>
+                        <div style={{ position: "absolute", paddingTop: "0vh", overflow: "hidden", height: "calc(100vh - 120px)" }}>
+                            <Lottie width="100%" options={defaultOptions} ></Lottie>
                         </div>
                     )}
 
