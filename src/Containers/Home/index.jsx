@@ -24,8 +24,6 @@ const Home = (props) => {
     const [VerticalIndex, setVerticalIndex] = useState(0);
 
 
-
-
     useEffect(() => {
 
         window.onscroll = function () {
@@ -38,28 +36,30 @@ const Home = (props) => {
         }
     });
 
-
-
-
-
     const icon = require('../../Resources/Animations/adam.json');
+
     const lottieLaptop = require('../../Resources/Animations/laptop.json');
 
     return (
+
         <section className="home" >
-            <UpDown state={1} show={true} index={VerticalIndex}  />
+
+            <UpDown state={1} show={true} index={VerticalIndex}/>
+
             <Header show={showHeader}/>
+
             <Menu/>
+
             <section name="landing"  className="home__landing" id="1"  >
                 <Logo/>
                 <div className="home__landing__container-text">
-                <h1>Welcome</h1>
-                <div>
-                <h5><span>TO ADAM'S GRAY</span><br></br> WEBSITE</h5>
-                <div></div>
-                </div>
+                    <h1>Welcome</h1>
+                    <div>
+                        <h5><span>TO ADAM'S GRAY</span><br></br> WEBSITE</h5>
+                    </div>
                 </div>
             </section> 
+
             <LandingModule 
                 id="2"
                 title="HELLA SLINGSHOTS" 
@@ -76,6 +76,7 @@ const Home = (props) => {
                 textPos="150px"
                 isThreeDimensional={true}
             />
+
             <LandingModule 
                 id="3"
                 title="BICYCLE BOLTS" 
