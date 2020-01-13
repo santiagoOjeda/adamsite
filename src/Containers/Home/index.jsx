@@ -63,6 +63,7 @@ const Home = (props) => {
             <LandingModule 
                 id="2"
                 title="HELLA SLINGSHOTS" 
+                titleColor="#00c691"
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
                 titleBg={hellaBG}
                 iconImg={sligIcon}
@@ -80,6 +81,7 @@ const Home = (props) => {
             <LandingModule 
                 id="3"
                 title="BICYCLE BOLTS" 
+                titleColor="#6140FF"
                 subtitle="Here i make and sell metric security bolts to help
                 keep components on your bicycle safe from
                 opportunistic thievery."
@@ -100,6 +102,7 @@ const Home = (props) => {
             <LandingModule 
                 id="4"
                 title="SURF BRAIN" 
+                titleColor="#2AD9B1"
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
                 titleBg={surfBG}
                 productBg={surfBGProd}
@@ -117,14 +120,18 @@ const Home = (props) => {
                 id="5"
                 title="HELLA MORE
                 FUNNER" 
-                subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
+                titleColor="#6140FF"
+                subtitle="In this art project i make ridiculously
+                complex and ADD addled collages from
+                images found online."
                 titleBg={hellaMoreBG}
                 btnText="SEE PROJECT"
                 buttonBorderColor='#F26941'
                 bgBtnColor="#FFE848"
                 color='#F26941'
                 iconLottie={icon}
-                textPos="125px"
+                textPos="195px"
+                textPosLeft="50px"
                 iconImg={intermoicon}
                 buttonText="text"
                 isThreeDimensional={false}
@@ -133,16 +140,18 @@ const Home = (props) => {
       <LandingModule 
                 id="5"
                 title="INTRMODL" 
+                titleColor="#196FBC"
                 subtitle="This is a logistics project in which we delivered
                 a fleet management solution for intermodal yards."
                 titleBg={intmdBg}
                 btnText="SEE PROJECT"
-                buttonBorderColor='#2AD9B1'
-                bgBtnColor="#FFF28B"
+                buttonBorderColor='#196FBC'
+                bgBtnColor="#196FBC"
                 productBg={intermodProductBG}
-                bgBtnColor="#EF817F"
+                bgBtnColor="#196FBC"
                 color='#196FBC'
-                textPos="125px"
+                textPos="105px"
+                textPosLeft="50px"
                 iconLottie={lottieLaptop}
                 iconImg={intIcon}
                 buttonText="text"

@@ -3,7 +3,7 @@ import Lottie from 'react-lottie';
 
 import { ThreeElement, MainButton } from '../';
 
-const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, btnText, buttonBorderColor, bgBtnColor, textPos, isThreeDimensional, iconLottie, id }) => {
+const LandingModule = ({ title, subtitle, titleBg, productBg, color, textPosLeft, iconImg, btnText, buttonBorderColor, bgBtnColor, textPos, isThreeDimensional, iconLottie, id, titleColor }) => {
 
     const [defaultOptions, setSefaultOptions] = useState({
         loop: true,
@@ -16,14 +16,21 @@ const LandingModule = ({ title, subtitle, titleBg, productBg, color, iconImg, bt
 
     var styles = {
         color: color,
-        top: textPos
+        top: textPos,
+        left: textPosLeft
+    };
+
+    var stylesTitle = {
+        color: titleColor,
+        top: textPos,
+        left: textPosLeft
     };
 
     return (
         <section className="landing-module" id={id} >
             <div className="landing-module__left-container">
                 <div className="landing-module__left-container__bg">
-                    <h1 style={styles}>{title}</h1>
+                    <h1 style={stylesTitle} >{title}</h1>
                     <img src={titleBg} alt="titleBg" />
                     <p style={styles}>{subtitle}</p>
                 </div>
