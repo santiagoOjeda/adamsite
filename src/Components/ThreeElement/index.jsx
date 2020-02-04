@@ -4,13 +4,15 @@ import * as THREE from 'three';
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
-import object from '../../Resources/obj/Samba Dancing.fbx';
+import object from '../../Resources/obj/tetera.FBX';
+
+// import object from '../../Resources/obj/Samba Dancing.fbx';
 
 
 import Stats from 'three/examples/jsm/libs/stats.module.js';
 
 
-let width = 1000;
+
 
 const ThreeElement = ({height,width  }) => {
 
@@ -37,11 +39,16 @@ const ThreeElement = ({height,width  }) => {
 		container = document.createElement( 'div' );
 		document.getElementById("containerThree").appendChild( container );
 
-		camera = new THREE.PerspectiveCamera( 60, width /height, 1, 2000);
-		camera.position.z = 300;
+		camera = new THREE.PerspectiveCamera( 45, width / height , 1, 2000);
+		// camera.position.z = 300;
 
 		// camera = new THREE.PerspectiveCamera( 60, width /height, 0.1, 10 );
-		// camera.position.set( 100, 200, 300 );
+		// camera.position.set( 100, 0, -100 );
+		camera.position.z = 300;
+		camera.position.x = 0;
+		camera.position.y = 100;
+
+		camera.focus = 40;
 
 		scene = new THREE.Scene();
 		// scene.background = new THREE.Color( 0xa0a0a0 );
@@ -81,6 +88,8 @@ const ThreeElement = ({height,width  }) => {
 
 			var action = mixer.clipAction( object.animations[ 0 ] );
 			action.play();
+
+			object.position.y = -90;
 
 			object.traverse( function ( child ) {
 
@@ -122,16 +131,16 @@ const ThreeElement = ({height,width  }) => {
 
 		// stats
 		stats = new Stats();
-		container.appendChild( stats.dom );
+		// container.appendChild( stats.dom );
 
 	}
 
 	function onWindowResize() {
 
-		camera.aspect = window.innerWidth / window.innerHeight;
+		camera.aspect = width / height ;
 		camera.updateProjectionMatrix();
 
-		renderer.setSize( window.innerWidth, window.innerHeight );
+		renderer.setSize(width / height );
 
 	}
 
@@ -139,17 +148,19 @@ const ThreeElement = ({height,width  }) => {
 
 	function animate() {
 
+		// onWindowResize();
+
 		controls.update();
 
 		requestAnimationFrame( animate );
 
-		var delta = clock.getDelta();
+		// var delta = clock.getDelta();
 
-		if ( mixer ) mixer.update( delta );
+		// if ( mixer ) mixer.update( delta );
 
 		renderer.render( scene, camera );
 
-		stats.update();
+		// stats.update();
 
 	}
 

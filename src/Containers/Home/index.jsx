@@ -75,6 +75,8 @@ const Home = (props) => {
                 color='#00c691'
                 buttonText="text"
                 textPos="150px"
+                width = "1000px"
+                height = "1000px"
                 isThreeDimensional={true}
             />
 
