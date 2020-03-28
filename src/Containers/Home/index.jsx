@@ -15,6 +15,9 @@ import intermodProductBG from '../../Resources/Images/intermodProductBG.svg';
 import intmdBg from '../../Resources/Images/intmdBg.svg';
 import intermoicon from '../../Resources/Images/intermoicon.svg';
 import intIcon from '../../Resources/Images/intIcon.svg';
+import hellaMoreBgProduct from '../../Resources/Images/hella-more-bg-product.svg';
+
+import ReactPageScroller from "react-page-scroller";
 
 
 
@@ -36,20 +39,22 @@ const Home = (props) => {
         }
     });
 
+    useEffect(() => console.log('mounted PAGE'), []);
+
     const icon = require('../../Resources/Animations/adam.json');
 
     const lottieLaptop = require('../../Resources/Animations/laptop.json');
 
+    const goToPage = (pageNumber) => {
+        this.reactPageScroller.goToPage(pageNumber);
+      }
+
     return (
 
         <section className="home" >
-
-            <UpDown state={1} show={true} index={VerticalIndex}/>
-
-            <Header show={showHeader}/>
-
-            <Menu/>
-
+            <Header show={true}></Header>
+        <ReactPageScroller ref={c =>  this.reactPageScroller = c}>
+           
             <section name="landing"  className="home__landing" id="1"  >
                 <Logo/>
                 <div className="home__landing__container-text">
@@ -62,6 +67,7 @@ const Home = (props) => {
 
             <LandingModule 
                 id="2"
+                idThreejs="hella"
                 title="HELLA SLINGSHOTS" 
                 titleColor="#00c691"
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
@@ -80,8 +86,9 @@ const Home = (props) => {
                 isThreeDimensional={true}
             />
 
-            <LandingModule 
+            <LandingModule
                 id="3"
+                idThreejs="bycicle"
                 title="BICYCLE BOLTS" 
                 titleColor="#6140FF"
                 subtitle="Here i make and sell metric security bolts to help
@@ -98,11 +105,10 @@ const Home = (props) => {
                 buttonText="text"
                 textPos="185px"
                 isThreeDimensional={true}
-                
             />
-           
-            <LandingModule 
+            <LandingModule
                 id="4"
+                idThreejs="surf"
                 title="SURF BRAIN" 
                 titleColor="#2AD9B1"
                 subtitle="In this project I make over 35,000 slingshot each year in a variety of colors and designs."
@@ -116,10 +122,11 @@ const Home = (props) => {
                 iconImg={surfIcon}
                 buttonText="text"
                 isThreeDimensional={true}
-            /> 
+            />
 
-             <LandingModule 
+             <LandingModule
                 id="5"
+                idThreejs="more"
                 title="HELLA MORE
                 FUNNER" 
                 titleColor="#6140FF"
@@ -128,19 +135,20 @@ const Home = (props) => {
                 images found online."
                 titleBg={hellaMoreBG}
                 btnText="SEE PROJECT"
+                productBg={hellaMoreBgProduct}
                 buttonBorderColor='#F26941'
                 bgBtnColor="#FFE848"
                 color='#F26941'
-                iconLottie={icon}
+                iconLottie={lottieLaptop}
                 textPos="195px"
                 textPosLeft="50px"
                 iconImg={intermoicon}
                 buttonText="text"
                 isThreeDimensional={false}
-            /> 
-      
-      <LandingModule 
+            />
+            <LandingModule
                 id="5"
+                idThreejs="intrmodl"
                 title="INTRMODL" 
                 titleColor="#196FBC"
                 subtitle="This is a logistics project in which we delivered
@@ -158,8 +166,8 @@ const Home = (props) => {
                 iconImg={intIcon}
                 buttonText="text"
                 isThreeDimensional={false}
-            /> 
-
+            />
+ </ReactPageScroller>
         </section>
     );
 };

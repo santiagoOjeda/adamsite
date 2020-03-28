@@ -1,84 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1296.249" height="1071.36" viewBox="0 0 1296.249 1071.36">
-  <g id="Grupo_1140" data-name="Grupo 1140" transform="translate(7747.367 16194.463)">
-    <g id="Grupo_863" data-name="Grupo 863" transform="translate(-7043.74 -15903.607) rotate(90)">
-      <path id="Trazado_2257" data-name="Trazado 2257" d="M0,0V62.108H61.226" transform="translate(54.822 0)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-      <line id="Línea_107" data-name="Línea 107" x1="54.822" y2="54.822" transform="translate(0 62.108)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1029" height="960" viewBox="0 0 1029 960">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_397" data-name="Rectángulo 397" width="1029" height="960" transform="translate(-6927 -16790)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_19" data-name="Enmascarar grupo 19" transform="translate(6927 16790)" clip-path="url(#clip-path)">
+    <g id="Grupo_1140" data-name="Grupo 1140" transform="translate(-9 -333)">
+      <g id="Grupo_863" data-name="Grupo 863" transform="translate(-6224.74 -16237.607) rotate(90)">
+        <path id="Trazado_2257" data-name="Trazado 2257" d="M0,0V62.108H61.226" transform="translate(54.822 0)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+        <line id="Línea_107" data-name="Línea 107" x1="54.822" y2="54.822" transform="translate(0 62.108)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      </g>
+      <g id="Grupo_865" data-name="Grupo 865" transform="translate(-5840.695 -16180.436) rotate(90)">
+        <path id="Trazado_2259" data-name="Trazado 2259" d="M87.2,43.893,43.3,0,0,43.3" transform="translate(0 77.561)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+        <line id="Línea_109" data-name="Línea 109" y1="77.561" transform="translate(43.305)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      </g>
+      <g id="Grupo_866" data-name="Grupo 866" transform="translate(-6495.558 -15846.629) rotate(90)">
+        <path id="Trazado_2260" data-name="Trazado 2260" d="M62.049,0V47.007H0" transform="translate(0 0)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+        <line id="Línea_110" data-name="Línea 110" x2="54.822" y2="54.88" transform="translate(62.049 47.007)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      </g>
+      <path id="Trazado_2261" data-name="Trazado 2261" d="M0,56.408H67.925v70.569L194.9,0" transform="translate(-6199.416 -16146.237) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_136" data-name="Elipse 136" cx="11.458" cy="11.458" r="11.458" transform="translate(-6387.56 -16069.734) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_137" data-name="Elipse 137" cx="30.143" cy="30.143" r="30.143" transform="translate(-6495.558 -15973.136) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_138" data-name="Elipse 138" cx="18.156" cy="18.156" r="18.156" transform="translate(-6477.754 -16267.691) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_139" data-name="Elipse 139" cx="18.156" cy="18.156" r="18.156" transform="translate(-6210.286 -16335.675) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_140" data-name="Elipse 140" cx="4.289" cy="4.289" r="4.289" transform="translate(-6347.311 -16152.701) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_141" data-name="Elipse 141" cx="4.289" cy="4.289" r="4.289" transform="translate(-6347.311 -16314.581) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_142" data-name="Elipse 142" cx="4.289" cy="4.289" r="4.289" transform="translate(-6546.149 -16396.254) rotate(90)" fill="#fff"/>
+      <circle id="Elipse_143" data-name="Elipse 143" cx="4.289" cy="4.289" r="4.289" transform="translate(-6770.9 -16195.83) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_144" data-name="Elipse 144" cx="4.289" cy="4.289" r="4.289" transform="translate(-6656.673 -15877.829) rotate(90)" fill="#fff"/>
+      <circle id="Elipse_145" data-name="Elipse 145" cx="4.289" cy="4.289" r="4.289" transform="translate(-7024.208 -15982.36) rotate(90)" fill="rgba(0,0,0,0)"/>
+      <circle id="Elipse_146" data-name="Elipse 146" cx="4.289" cy="4.289" r="4.289" transform="translate(-6819.963 -15670.882) rotate(90)" fill="#fff"/>
+      <circle id="Elipse_148" data-name="Elipse 148" cx="4.289" cy="4.289" r="4.289" transform="translate(-6588.808 -16087.068) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_150" data-name="Elipse 150" cx="4.289" cy="4.289" r="4.289" transform="translate(-6399.899 -15632.102) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_151" data-name="Elipse 151" cx="4.289" cy="4.289" r="4.289" transform="translate(-6570.005 -15684.925) rotate(90)" fill="#fff"/>
+      <circle id="Elipse_152" data-name="Elipse 152" cx="4.289" cy="4.289" r="4.289" transform="translate(-7259.711 -15990.939) rotate(90)" fill="#fff"/>
+      <circle id="Elipse_153" data-name="Elipse 153" cx="4.289" cy="4.289" r="4.289" transform="translate(-5983.008 -15982.36) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_154" data-name="Elipse 154" cx="4.289" cy="4.289" r="4.289" transform="translate(-6131.608 -15905.857) rotate(90)" fill="#fff"/>
+      <circle id="Elipse_155" data-name="Elipse 155" cx="4.289" cy="4.289" r="4.289" transform="translate(-6098.586 -16106.929) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_156" data-name="Elipse 156" cx="4.289" cy="4.289" r="4.289" transform="translate(-5910.265 -16400.604) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_157" data-name="Elipse 157" cx="4.289" cy="4.289" r="4.289" transform="translate(-6191.072 -16074.023) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_158" data-name="Elipse 158" cx="4.289" cy="4.289" r="4.289" transform="translate(-6296.308 -15932.827) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_159" data-name="Elipse 159" cx="4.289" cy="4.289" r="4.289" transform="translate(-6732.296 -15630.691) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_162" data-name="Elipse 162" cx="4.289" cy="4.289" r="4.289" transform="translate(-7182.679 -16113.862) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_163" data-name="Elipse 163" cx="4.289" cy="4.289" r="4.289" transform="translate(-6637.871 -16011.681) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_164" data-name="Elipse 164" cx="4.289" cy="4.289" r="4.289" transform="translate(-6555.844 -15594.907) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_167" data-name="Elipse 167" cx="4.289" cy="4.289" r="4.289" transform="translate(-6428.691 -15868.722) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_168" data-name="Elipse 168" cx="4.289" cy="4.289" r="4.289" transform="translate(-6337.38 -15603.545) rotate(90)" fill="#00c691"/>
+      <circle id="Elipse_169" data-name="Elipse 169" cx="4.289" cy="4.289" r="4.289" transform="translate(-6138.072 -16369.226) rotate(90)" fill="#00c691"/>
+      <g id="Grupo_867" data-name="Grupo 867" transform="translate(-6434.332 -15846.629) rotate(90)">
+        <path id="Trazado_2262" data-name="Trazado 2262" d="M0,61.226H62.049V0" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+        <line id="Línea_111" data-name="Línea 111" x2="54.822" y2="54.88" transform="translate(62.049 61.226)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      </g>
+      <rect id="Rectángulo_181" data-name="Rectángulo 181" width="14.22" height="140.08" transform="translate(-6398.667 -15959.609) rotate(135)" fill="#00c691"/>
+      <path id="Trazado_2263" data-name="Trazado 2263" d="M0,130.914,123.393,7.521l71.685,71.685L274.284,0" transform="translate(-6220.686 -15873.54) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2265" data-name="Trazado 2265" d="M0,0,51.355,102.592l54.763-54.763Z" transform="translate(-6597.797 -16471.055) rotate(90)" fill="#fff28b"/>
+      <path id="Trazado_2266" data-name="Trazado 2266" d="M29.967,0,0,90.018H64.106Z" transform="translate(-6015.501 -16227.912) rotate(90)" fill="#fff28b"/>
+      <path id="Trazado_2267" data-name="Trazado 2267" d="M29.967,0,0,90.077H64.106Z" transform="translate(-6066.622 -16227.912) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2641" data-name="Trazado 2641" d="M90.26,0,0,271.31H193.085Z" transform="translate(-6910.849 -15658.515) rotate(-45)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <line id="Línea_112" data-name="Línea 112" x1="152.419" y2="152.478" transform="translate(-5950.397 -16495.381) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <line id="Línea_113" data-name="Línea 113" x1="152.419" y2="152.419" transform="translate(-6038.006 -16523.291) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_170" data-name="Elipse 170" cx="5.465" cy="5.465" r="5.465" transform="translate(-6010.037 -16289.608) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_171" data-name="Elipse 171" cx="5.465" cy="5.465" r="5.465" transform="translate(-5912.674 -15569.759) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_172" data-name="Elipse 172" cx="5.465" cy="5.465" r="5.465" transform="translate(-5944.933 -15846.629) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_173" data-name="Elipse 173" cx="5.465" cy="5.465" r="5.465" transform="translate(-6116.037 -15762.663) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_174" data-name="Elipse 174" cx="44.01" cy="44.01" r="44.01" transform="translate(-5830.119 -15805.263) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_287" data-name="Elipse 287" cx="173.01" cy="173.01" r="173.01" transform="translate(-5632.119 -16380.263) rotate(90)" fill="#fff28b"/>
+      <circle id="Elipse_175" data-name="Elipse 175" cx="44.01" cy="44.01" r="44.01" transform="translate(-5830.119 -15739.806) rotate(90)" fill="#00c691"/>
+      <path id="Trazado_2268" data-name="Trazado 2268" d="M199.544,67.983,140.726,9.166,74.976,74.917,0,0" transform="translate(-6023.845 -16055.809) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2269" data-name="Trazado 2269" d="M0,0,69.335,69.335l54.41-54.351,51.883,51.884" transform="translate(-6028.135 -15873.54) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <line id="Línea_114" data-name="Línea 114" y2="79.5" transform="translate(-6097.47 -15804.205) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_176" data-name="Elipse 176" cx="18.391" cy="18.391" r="18.391" transform="translate(-6158.578 -15703.375) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2270" data-name="Trazado 2270" d="M0,0H55.762V52.53" transform="translate(-6121.502 -15673.585) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_177" data-name="Elipse 177" cx="10.106" cy="10.106" r="10.106" transform="translate(-6189.309 -16330.504) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2271" data-name="Trazado 2271" d="M14.572,83.085,68.747,28.556,0,0" transform="translate(-6607.552 -16396.314) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2272" data-name="Trazado 2272" d="M0,0V82.5H85.317v82.614h74.388V125.332" transform="translate(-6588.808 -16163.807) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_179" data-name="Elipse 179" cx="24.326" cy="24.326" r="24.326" transform="translate(-6564.481 -16188.133) rotate(90)" fill="#00c691"/>
+      <path id="Trazado_2274" data-name="Trazado 2274" d="M0,0H91.546V80.793Z" transform="translate(-6325.747 -16471.334) rotate(135)" fill="#00c691"/>
+      <path id="Trazado_2275" data-name="Trazado 2275" d="M41.954,43.657h29.2V0H0" transform="translate(-6410.064 -16384.15) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2278" data-name="Trazado 2278" d="M1.41,0,24.62,23.21,0,47.83" transform="translate(-6439.268 -16161.633) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2280" data-name="Trazado 2280" d="M0,2.526,12.574,15.1,27.675,0" transform="translate(-6899.346 -16261.287) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2281" data-name="Trazado 2281" d="M0,2.526,12.633,15.1,27.734,0" transform="translate(-6694.383 -15566.401) rotate(90)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2640" data-name="Trazado 2640" d="M0,2.526,12.633,15.1,27.734,0" transform="translate(-6652.698 -15576.062) rotate(-150)" fill="rgba(0,0,0,0)" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2282" data-name="Trazado 2282" d="M12.633,0,0,12.574l15.1,15.1" transform="translate(-6734 -16361.646) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2284" data-name="Trazado 2284" d="M51.531,24.326,27.264,0,0,27.264" transform="translate(-7103.062 -16091.651) rotate(90)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2285" data-name="Trazado 2285" d="M0,29.849,29.908,0,43.775,13.867" transform="translate(-5907.621 -16004.102) rotate(90)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2286" data-name="Trazado 2286" d="M0,31.024,31.025,0,51,19.978" transform="translate(-5962.736 -15637.096) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2290" data-name="Trazado 2290" d="M0,37.723V0L68.512,18.861l68.512,18.862L68.512,56.584,0,75.446Z" transform="translate(-6408.73 -15621.407) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <circle id="Elipse_186" data-name="Elipse 186" cx="45.244" cy="45.244" r="45.244" transform="translate(-6021.377 -15558.771) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <line id="Línea_116" data-name="Línea 116" x2="82.967" y2="24.561" transform="translate(-6339.275 -15572.492) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
+      <path id="Trazado_2295" data-name="Trazado 2295" d="M0,26.441l19.1-19.1L41.013,29.32,70.334,0" transform="translate(-5974.312 -15777.587) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
+      <line id="Línea_117" data-name="Línea 117" x1="36.724" y1="36.724" transform="translate(-6026.078 -16102.11) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
     </g>
-    <g id="Grupo_865" data-name="Grupo 865" transform="translate(-6659.695 -15846.436) rotate(90)">
-      <path id="Trazado_2259" data-name="Trazado 2259" d="M87.2,43.893,43.3,0,0,43.3" transform="translate(0 77.561)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-      <line id="Línea_109" data-name="Línea 109" y1="77.561" transform="translate(43.305)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    </g>
-    <g id="Grupo_866" data-name="Grupo 866" transform="translate(-7314.558 -15512.629) rotate(90)">
-      <path id="Trazado_2260" data-name="Trazado 2260" d="M62.049,0V47.007H0" transform="translate(0 0)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-      <line id="Línea_110" data-name="Línea 110" x2="54.822" y2="54.88" transform="translate(62.049 47.007)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    </g>
-    <path id="Trazado_2261" data-name="Trazado 2261" d="M0,56.408H67.925v70.569L194.9,0" transform="translate(-7018.416 -15812.237) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_136" data-name="Elipse 136" cx="11.458" cy="11.458" r="11.458" transform="translate(-7206.56 -15735.734) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_137" data-name="Elipse 137" cx="30.143" cy="30.143" r="30.143" transform="translate(-7314.558 -15639.136) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_138" data-name="Elipse 138" cx="18.156" cy="18.156" r="18.156" transform="translate(-7296.754 -15933.691) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_139" data-name="Elipse 139" cx="18.156" cy="18.156" r="18.156" transform="translate(-7029.286 -16001.675) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_140" data-name="Elipse 140" cx="4.289" cy="4.289" r="4.289" transform="translate(-7166.311 -15818.701) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_141" data-name="Elipse 141" cx="4.289" cy="4.289" r="4.289" transform="translate(-7166.311 -15980.581) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_142" data-name="Elipse 142" cx="4.289" cy="4.289" r="4.289" transform="translate(-7365.149 -16062.255) rotate(90)" fill="#fff"/>
-    <circle id="Elipse_143" data-name="Elipse 143" cx="4.289" cy="4.289" r="4.289" transform="translate(-7589.9 -15861.83) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_144" data-name="Elipse 144" cx="4.289" cy="4.289" r="4.289" transform="translate(-7475.673 -15543.829) rotate(90)" fill="#fff"/>
-    <circle id="Elipse_146" data-name="Elipse 146" cx="4.289" cy="4.289" r="4.289" transform="translate(-7638.963 -15336.882) rotate(90)" fill="#fff"/>
-    <circle id="Elipse_148" data-name="Elipse 148" cx="4.289" cy="4.289" r="4.289" transform="translate(-7407.808 -15753.068) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_150" data-name="Elipse 150" cx="4.289" cy="4.289" r="4.289" transform="translate(-7218.899 -15298.102) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_151" data-name="Elipse 151" cx="4.289" cy="4.289" r="4.289" transform="translate(-7389.005 -15350.925) rotate(90)" fill="#fff"/>
-    <circle id="Elipse_153" data-name="Elipse 153" cx="4.289" cy="4.289" r="4.289" transform="translate(-6802.008 -15648.36) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_154" data-name="Elipse 154" cx="4.289" cy="4.289" r="4.289" transform="translate(-6950.608 -15571.857) rotate(90)" fill="#fff"/>
-    <circle id="Elipse_155" data-name="Elipse 155" cx="4.289" cy="4.289" r="4.289" transform="translate(-6917.586 -15772.929) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_156" data-name="Elipse 156" cx="4.289" cy="4.289" r="4.289" transform="translate(-6729.265 -16066.603) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_157" data-name="Elipse 157" cx="4.289" cy="4.289" r="4.289" transform="translate(-7010.072 -15740.023) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_158" data-name="Elipse 158" cx="4.289" cy="4.289" r="4.289" transform="translate(-7115.308 -15598.827) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_159" data-name="Elipse 159" cx="4.289" cy="4.289" r="4.289" transform="translate(-7551.296 -15296.691) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_163" data-name="Elipse 163" cx="4.289" cy="4.289" r="4.289" transform="translate(-7456.871 -15677.681) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_164" data-name="Elipse 164" cx="4.289" cy="4.289" r="4.289" transform="translate(-7374.844 -15260.907) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_167" data-name="Elipse 167" cx="4.289" cy="4.289" r="4.289" transform="translate(-7247.691 -15534.722) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_168" data-name="Elipse 168" cx="4.289" cy="4.289" r="4.289" transform="translate(-7156.38 -15269.545) rotate(90)" fill="#00c691"/>
-    <circle id="Elipse_169" data-name="Elipse 169" cx="4.289" cy="4.289" r="4.289" transform="translate(-6957.072 -16035.226) rotate(90)" fill="#00c691"/>
-    <g id="Grupo_867" data-name="Grupo 867" transform="translate(-7253.332 -15512.629) rotate(90)">
-      <path id="Trazado_2262" data-name="Trazado 2262" d="M0,61.226H62.049V0" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-      <line id="Línea_111" data-name="Línea 111" x2="54.822" y2="54.88" transform="translate(62.049 61.226)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    </g>
-    <rect id="Rectángulo_181" data-name="Rectángulo 181" width="14.22" height="140.08" transform="translate(-7217.667 -15625.609) rotate(135)" fill="#00c691"/>
-    <path id="Trazado_2263" data-name="Trazado 2263" d="M0,130.914,123.393,7.521l71.685,71.685L274.284,0" transform="translate(-7039.686 -15539.54) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2265" data-name="Trazado 2265" d="M0,0,51.355,102.592l54.763-54.763Z" transform="translate(-7416.797 -16137.055) rotate(90)" fill="#fff28b"/>
-    <path id="Trazado_2266" data-name="Trazado 2266" d="M29.967,0,0,90.018H64.106Z" transform="translate(-6834.501 -15893.912) rotate(90)" fill="#fff28b"/>
-    <path id="Trazado_2267" data-name="Trazado 2267" d="M29.967,0,0,90.077H64.106Z" transform="translate(-6885.622 -15893.912) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2641" data-name="Trazado 2641" d="M90.26,0,0,271.31H193.085Z" transform="translate(-7729.849 -15324.515) rotate(-45)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <line id="Línea_112" data-name="Línea 112" x1="152.419" y2="152.478" transform="translate(-6769.397 -16161.38) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <line id="Línea_113" data-name="Línea 113" x1="152.419" y2="152.419" transform="translate(-6857.006 -16189.291) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_170" data-name="Elipse 170" cx="5.465" cy="5.465" r="5.465" transform="translate(-6829.037 -15955.608) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_171" data-name="Elipse 171" cx="5.465" cy="5.465" r="5.465" transform="translate(-6731.674 -15235.759) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_172" data-name="Elipse 172" cx="5.465" cy="5.465" r="5.465" transform="translate(-6763.933 -15512.629) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_173" data-name="Elipse 173" cx="5.465" cy="5.465" r="5.465" transform="translate(-6935.037 -15428.663) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_174" data-name="Elipse 174" cx="44.01" cy="44.01" r="44.01" transform="translate(-6649.119 -15471.263) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_287" data-name="Elipse 287" cx="173.01" cy="173.01" r="173.01" transform="translate(-6451.119 -16046.263) rotate(90)" fill="#fff28b"/>
-    <circle id="Elipse_175" data-name="Elipse 175" cx="44.01" cy="44.01" r="44.01" transform="translate(-6649.119 -15405.806) rotate(90)" fill="#00c691"/>
-    <path id="Trazado_2268" data-name="Trazado 2268" d="M199.544,67.983,140.726,9.166,74.976,74.917,0,0" transform="translate(-6842.845 -15721.809) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2269" data-name="Trazado 2269" d="M0,0,69.335,69.335l54.41-54.351,51.883,51.884" transform="translate(-6847.135 -15539.54) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <line id="Línea_114" data-name="Línea 114" y2="79.5" transform="translate(-6916.47 -15470.205) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_176" data-name="Elipse 176" cx="18.391" cy="18.391" r="18.391" transform="translate(-6977.578 -15369.375) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2270" data-name="Trazado 2270" d="M0,0H55.762V52.53" transform="translate(-6940.502 -15339.585) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_177" data-name="Elipse 177" cx="10.106" cy="10.106" r="10.106" transform="translate(-7008.309 -15996.504) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2271" data-name="Trazado 2271" d="M14.572,83.085,68.747,28.556,0,0" transform="translate(-7426.552 -16062.313) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2272" data-name="Trazado 2272" d="M0,0V82.5H85.317v82.614h74.388V125.332" transform="translate(-7407.808 -15829.807) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_179" data-name="Elipse 179" cx="24.326" cy="24.326" r="24.326" transform="translate(-7383.481 -15854.133) rotate(90)" fill="#00c691"/>
-    <path id="Trazado_2274" data-name="Trazado 2274" d="M0,0H91.546V80.793Z" transform="translate(-7144.747 -16137.334) rotate(135)" fill="#00c691"/>
-    <path id="Trazado_2275" data-name="Trazado 2275" d="M41.954,43.657h29.2V0H0" transform="translate(-7229.064 -16050.15) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2278" data-name="Trazado 2278" d="M1.41,0,24.62,23.21,0,47.83" transform="translate(-7258.268 -15827.633) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2280" data-name="Trazado 2280" d="M0,2.526,12.574,15.1,27.675,0" transform="translate(-7718.346 -15927.287) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2281" data-name="Trazado 2281" d="M0,2.526,12.633,15.1,27.734,0" transform="translate(-7513.383 -15232.401) rotate(90)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2640" data-name="Trazado 2640" d="M0,2.526,12.633,15.1,27.734,0" transform="translate(-7471.698 -15242.062) rotate(-150)" fill="rgba(0,0,0,0)" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2282" data-name="Trazado 2282" d="M12.633,0,0,12.574l15.1,15.1" transform="translate(-7553 -16027.646) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2285" data-name="Trazado 2285" d="M0,29.849,29.908,0,43.775,13.867" transform="translate(-6726.621 -15670.102) rotate(90)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2286" data-name="Trazado 2286" d="M0,31.024,31.025,0,51,19.978" transform="translate(-6781.736 -15303.096) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2290" data-name="Trazado 2290" d="M0,37.723V0L68.512,18.861l68.512,18.862L68.512,56.584,0,75.446Z" transform="translate(-7227.73 -15287.407) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <circle id="Elipse_186" data-name="Elipse 186" cx="45.244" cy="45.244" r="45.244" transform="translate(-6840.377 -15224.771) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <line id="Línea_116" data-name="Línea 116" x2="82.967" y2="24.561" transform="translate(-7158.275 -15238.492) rotate(90)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="11.339"/>
-    <path id="Trazado_2295" data-name="Trazado 2295" d="M0,26.441l19.1-19.1L41.013,29.32,70.334,0" transform="translate(-6793.312 -15443.587) rotate(90)" fill="none" stroke="#00c691" stroke-miterlimit="10" stroke-width="11.339"/>
-    <line id="Línea_117" data-name="Línea 117" x1="36.724" y1="36.724" transform="translate(-6845.078 -15768.11) rotate(90)" fill="none" stroke="#fff28b" stroke-miterlimit="10" stroke-width="11.339"/>
   </g>
 </svg>

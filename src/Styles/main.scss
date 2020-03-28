@@ -20,3 +20,21 @@
 * {
 	outline: none;
 }
+
+.phone {
+	display: none ;
+
+	@include breakpoint("small") {
+        display: block;
+    }
+}
+
+.desktop {
+	@include breakpoint("small") {
+        display: none ;
+    }
+}
+
+h1 {
+    font-family: "PoppinsBlack" !important;
+}

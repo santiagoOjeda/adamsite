@@ -1,44 +1,28 @@
 import React, {useState, useEffect} from 'react';
 import * as THREE from 'three';
-
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-
 import object from '../../Resources/obj/tetera.FBX';
 
-// import object from '../../Resources/obj/Samba Dancing.fbx';
-
-
-import Stats from 'three/examples/jsm/libs/stats.module.js';
 
 
 
 
-const ThreeElement = ({height,width  }) => {
-
+const ThreeElement = ({height,width, id  }) => {
+	const [loading, setLoading] = useState(true);
 	useEffect(()=>{
 		init();
 		animate();
+		setLoading(false);
 	},[] );
 
-	
-
-
-
-
-	var container, stats, controls;
+	var container, controls;
 	var camera, scene, renderer, light;
-
-	var clock = new THREE.Clock();
-
 	var mixer;
 
-
 	function init() {
-
 		container = document.createElement( 'div' );
-		document.getElementById("containerThree").appendChild( container );
-
+		document.getElementById(id).appendChild( container );
 		camera = new THREE.PerspectiveCamera( 45, width / height , 1, 2000);
 		// camera.position.z = 300;
 
@@ -129,22 +113,15 @@ const ThreeElement = ({height,width  }) => {
 
 		// window.addEventListener( 'resize', onWindowResize, false );
 
-		// stats
-		stats = new Stats();
-		// container.appendChild( stats.dom );
+
 
 	}
 
 	function onWindowResize() {
-
 		camera.aspect = width / height ;
 		camera.updateProjectionMatrix();
-
 		renderer.setSize(width / height );
-
 	}
-
-	//
 
 	function animate() {
 
@@ -154,19 +131,15 @@ const ThreeElement = ({height,width  }) => {
 
 		requestAnimationFrame( animate );
 
-		// var delta = clock.getDelta();
-
-		// if ( mixer ) mixer.update( delta );
-
 		renderer.render( scene, camera );
 
-		// stats.update();
 
 	}
 
 
     return (
-        <div id="containerThree" className="containerThree"></div>
+
+			<div id={id} className="containerThree"></div>
     );
 };
 

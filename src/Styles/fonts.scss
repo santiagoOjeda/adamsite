@@ -17,6 +17,13 @@
 }
 
 @font-face {
+    font-family: 'PoppinsBlack';
+    src: url('../Resources/Fonts/Poppins-Black.woff2') format('woff2'),
+        url('../Resources/Fonts/Poppins-Black.woff') format('woff');
+
+}
+
+@font-face {
     font-family: 'Poppins';
     src: url('../Resources/Fonts/Poppins-Bold.woff2') format('woff2'),
         url('../Resources/Fonts/Poppins-Bold.woff') format('woff');

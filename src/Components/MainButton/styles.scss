@@ -1,5 +1,14 @@
 .container-main-button {
    margin-top: 10%;
+   cursor: pointer;
+   @include all-ease-custom(.3s);
+   &:hover {
+    @include all-ease-custom(.3s);
+       .main-btn {
+           top: -20px;
+           @include all-ease-custom(.3s);
+       }
+   }
 }
 
 .main-btn {
@@ -7,6 +16,8 @@
         border: solid 4px gray;
         padding: 10px 30px;
         width: 197px;
+        cursor: pointer;
+        @include all-ease-custom(.3s);
         font-weight: bold;
         color: gray;
         margin-top: 5%;
