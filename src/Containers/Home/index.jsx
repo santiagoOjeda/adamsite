@@ -22,13 +22,16 @@ import ReactPageScroller from "react-page-scroller";
 
 
 const Home = (props) => {
+
     const [{ submenu }, dispatch] = useUIcontextStateValue();
     const [showHeader, setShowHeader] = useState(false);
     const [VerticalIndex, setVerticalIndex] = useState(0);
+    const [sizeIsMobile, setSizeIsMobile] = useState(false);
+    const [customPageNumber, setCustomPageNumber] = useState(0);
+
 
 
     useEffect(() => {
-
         window.onscroll = function () {
             if (window.pageYOffset === 0) {
                 setShowHeader(false);
@@ -37,23 +40,37 @@ const Home = (props) => {
                 setShowHeader(true);
             }
         }
+
+        if(window.innerWidth <= "720" ) {
+            setSizeIsMobile(true);
+        } else {
+            setSizeIsMobile(false);
+        }
+
+
     });
 
-    useEffect(() => console.log('mounted PAGE'), []);
+
+    const showOrHideHeader =  (number) => {
+
+        if(number !== 0){
+            setShowHeader(true);
+        } else {
+            setShowHeader(false);
+        }
+    };
+
 
     const icon = require('../../Resources/Animations/adam.json');
 
     const lottieLaptop = require('../../Resources/Animations/laptop.json');
 
-    const goToPage = (pageNumber) => {
-        this.reactPageScroller.goToPage(pageNumber);
-      }
+  
 
     return (
-
         <section className="home" >
-            <Header show={true}></Header>
-        <ReactPageScroller ref={c =>  this.reactPageScroller = c}>
+            <Header show={showHeader}></Header>
+            <ReactPageScroller  pageOnChange={(number)=>{showOrHideHeader(number)}} customPageNumber={customPageNumber} animationTimer={1000}   >
            
             <section name="landing"  className="home__landing" id="1"  >
                 <Logo/>
@@ -84,7 +101,10 @@ const Home = (props) => {
                 width = "1000px"
                 height = "1000px"
                 isThreeDimensional={true}
+                isMobile={sizeIsMobile}
             />
+
+
 
             <LandingModule
                 id="3"
@@ -105,7 +125,9 @@ const Home = (props) => {
                 buttonText="text"
                 textPos="185px"
                 isThreeDimensional={true}
+                isMobile={sizeIsMobile}
             />
+            
             <LandingModule
                 id="4"
                 idThreejs="surf"
@@ -122,52 +144,54 @@ const Home = (props) => {
                 iconImg={surfIcon}
                 buttonText="text"
                 isThreeDimensional={true}
+                isMobile={sizeIsMobile}
             />
 
-             <LandingModule
-                id="5"
-                idThreejs="more"
-                title="HELLA MORE
-                FUNNER" 
-                titleColor="#6140FF"
-                subtitle="In this art project i make ridiculously
-                complex and ADD addled collages from
-                images found online."
-                titleBg={hellaMoreBG}
-                btnText="SEE PROJECT"
-                productBg={hellaMoreBgProduct}
-                buttonBorderColor='#F26941'
-                bgBtnColor="#FFE848"
-                color='#F26941'
-                iconLottie={lottieLaptop}
-                textPos="195px"
-                textPosLeft="50px"
-                iconImg={intermoicon}
-                buttonText="text"
-                isThreeDimensional={false}
-            />
-            <LandingModule
-                id="5"
-                idThreejs="intrmodl"
-                title="INTRMODL" 
-                titleColor="#196FBC"
-                subtitle="This is a logistics project in which we delivered
-                a fleet management solution for intermodal yards."
-                titleBg={intmdBg}
-                btnText="SEE PROJECT"
-                buttonBorderColor='#196FBC'
-                bgBtnColor="#196FBC"
-                productBg={intermodProductBG}
-                bgBtnColor="#196FBC"
-                color='#196FBC'
-                textPos="105px"
-                textPosLeft="50px"
-                iconLottie={lottieLaptop}
-                iconImg={intIcon}
-                buttonText="text"
-                isThreeDimensional={false}
-            />
- </ReactPageScroller>
+                <LandingModule
+                    id="5"
+                    idThreejs="more"
+                    title="HELLA MORE
+                    FUNNER" 
+                    titleColor="#6140FF"
+                    subtitle="In this art project i make ridiculously
+                    complex and ADD addled collages from
+                    images found online."
+                    titleBg={hellaMoreBG}
+                    btnText="SEE PROJECT"
+                    productBg={hellaMoreBgProduct}
+                    buttonBorderColor='#F26941'
+                    bgBtnColor="#FFE848"
+                    color='#F26941'
+                    iconLottie={lottieLaptop}
+                    textPos="195px"
+                    textPosLeft="50px"
+                    iconImg={intermoicon}
+                    buttonText="text"
+                    isThreeDimensional={false}
+                    isMobile={sizeIsMobile}
+                />
+                <LandingModule
+                    id="5"
+                    idThreejs="intrmodl"
+                    title="INTRMODL" 
+                    titleColor="#196FBC"
+                    subtitle="This is a logistics project in which we delivered
+                    a fleet management solution for intermodal yards."
+                    titleBg={intmdBg}
+                    btnText="SEE PROJECT"
+                    buttonBorderColor='#196FBC'
+                    bgBtnColor="#196FBC"
+                    productBg={intermodProductBG}
+                    color='#196FBC'
+                    textPos="105px"
+                    textPosLeft="50px"
+                    iconLottie={lottieLaptop}
+                    iconImg={intIcon}
+                    buttonText="text"
+                    isThreeDimensional={false}
+                    isMobile={sizeIsMobile}
+                />
+            </ReactPageScroller>
         </section>
     );
 };

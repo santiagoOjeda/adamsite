@@ -111,7 +111,7 @@ const ThreeElement = ({height,width, id  }) => {
 		// controls.target.set( 0, 100, 0 );
 		// controls.update();
 
-		// window.addEventListener( 'resize', onWindowResize, false );
+		window.addEventListener( 'resize', onWindowResize, false );
 
 
 

@@ -3,7 +3,24 @@ import Lottie from 'react-lottie';
 
 import { ThreeElement, MainButton } from '../';
 
-const LandingModule = ({ title, subtitle, titleBg, productBg, color, textPosLeft, iconImg, btnText, buttonBorderColor, bgBtnColor, textPos, isThreeDimensional, iconLottie, id,idThreejs, titleColor }) => {
+const LandingModule = ({
+    title,
+    subtitle,
+    titleBg,
+    productBg,
+    color,
+    textPosLeft,
+    iconImg,
+    btnText,
+    buttonBorderColor,
+    bgBtnColor,
+    textPos,
+    isThreeDimensional,
+    iconLottie,
+    id,idThreejs,
+    titleColor,
+    isMobile // switch from mobile or desktop view
+}) => {
 
     const [defaultOptions, setSefaultOptions] = useState({
         loop: true,
@@ -41,72 +58,74 @@ const LandingModule = ({ title, subtitle, titleBg, productBg, color, textPosLeft
 
 
     return (
-        <>
-        
+    <>
+    {
+        isMobile ? (
             <div className="phone">
-                <section className="landing-module" id={id} >
-                    <div className="landing-module__left-container-mobile">
-                    <div className="landing-module__left-container-mobile__bg">
-                        <div className="landing-module__left-container-mobile__bg__container">
-                            <h1 style={stylesTitleMobile} >{title}</h1>
-                            <img src={titleBg} alt="titleBg" />
-                        </div>
-                        <p style={styles}>{subtitle}</p>
-                        
-                    </div>
-   
-                    </div>
-                    <div className="landing-module__right-container-mobile" style={{
-                            backgroundImage: "url(" + productBg + ")", backgroundSize: "contain",
-                            backgroundRepeat: "no-repeat", backgroundPositionX: "right"
-                    }}>
-                        {isThreeDimensional ? (
-                            <ThreeElement id={idThreejs} width={window.innerWidth  } height={window.innerHeight / 2.3} />
-                        ) :
-                        (
-                            <div style={{ position: "absolute", paddingTop: "0vh", overflow: "hidden", height: "100vh", width: "50%" }}>
-                                <Lottie width="100%" options={defaultOptions} ></Lottie>
-                            </div>
-                        )}
-                        {/* <div className="landing-module__left-container-mobile__btn-container">
-                             <MainButton buttonText={btnText} borderColor={buttonBorderColor} bgBtnColor={bgBtnColor} />
-                        </div> */}
-                    </div>
-                </section>
-            </div>
-            <div className="desktop">
             <section className="landing-module" id={id} >
-                {loading ? (<p>LOADING</p>) :(
-                    <>
-                <div className="landing-module__left-container">
-                    <div className="landing-module__left-container__bg">
-                        <h1 style={stylesTitle} >{title}</h1>
+                <div className="landing-module__left-container-mobile">
+                <div className="landing-module__left-container-mobile__bg">
+                    <div className="landing-module__left-container-mobile__bg__container">
+                        <h1 style={stylesTitleMobile} >{title}</h1>
                         <img src={titleBg} alt="titleBg" />
-                        <p style={styles}>{subtitle}</p>
                     </div>
-                    <div className="landing-module__left-container__btn-container">
-                        <img src={iconImg} alt="icon" className="landing-module__left-container__btn-container__img"  />
+                    <p style={styles}>{subtitle}</p>
+                </div>
+                </div>
+                <div className="landing-module__right-container-mobile" style={{
+                        backgroundImage: "url(" + productBg + ")", backgroundSize: "contain",
+                        backgroundRepeat: "no-repeat", backgroundPositionX: "right"
+                }}>
+                    {isThreeDimensional ? (
+                        <ThreeElement id={idThreejs} width={window.innerWidth  } height={"320" } />
+                    ) :
+                    (
+                        <div style={{ position: "absolute", paddingTop: "0vh", overflow: "hidden", height: "100vh", width: "50%" }}>
+                            <Lottie width="100%" options={defaultOptions} ></Lottie>
+                        </div>
+                    )}
+
+                    <div className="landing-module__right-container-mobile__btn-container">
                         <MainButton buttonText={btnText} borderColor={buttonBorderColor} bgBtnColor={bgBtnColor} />
                     </div>
                 </div>
-                <div className="landing-module__right-container" style={{
-                    backgroundImage: "url(" + productBg + ")", backgroundSize: "contain",
-                    backgroundRepeat: "no-repeat", backgroundPositionX: "right"
-                }}>
-                    {isThreeDimensional ? (
-                        <ThreeElement id={idThreejs} width={window.innerWidth / 2} height={window.innerHeight} />
-                    ) :
-                        (
-                            <div style={{ position: "absolute", paddingTop: "0vh", overflow: "hidden", height: "100vh", width: "50%" }}>
-                                <Lottie width="100%" options={defaultOptions} ></Lottie>
-                            </div>
-                        )}
-                </div>
-                </> )}
-             </section>
+            </section>
             </div>
-            </>
-        
+        ) : (
+            <div className="desktop">
+            <section className="landing-module" id={id} >
+            {loading ? (<p>LOADING</p>) :(
+                <>
+            <div className="landing-module__left-container">
+                <div className="landing-module__left-container__bg">
+                    <h1 style={stylesTitle} >{title}</h1>
+                    <img src={titleBg} alt="titleBg" />
+                    <p style={styles}>{subtitle}</p>
+                </div>
+                <div className="landing-module__left-container__btn-container">
+                    <img src={iconImg} alt="icon" className="landing-module__left-container__btn-container__img"  />
+                    <MainButton buttonText={btnText} borderColor={buttonBorderColor} bgBtnColor={bgBtnColor} />
+                </div>
+            </div>
+            <div className="landing-module__right-container" style={{
+                backgroundImage: "url(" + productBg + ")", backgroundSize: "contain",
+                backgroundRepeat: "no-repeat", backgroundPositionX: "right"
+            }}>
+                {isThreeDimensional ? (
+                    <ThreeElement id={idThreejs} width={window.innerWidth / 2} height={window.innerHeight} />
+                ) :
+                (
+                    <div style={{ position: "absolute", paddingTop: "0vh", overflow: "hidden", height: "100vh", width: "50%" }}>
+                        <Lottie width="100%" options={defaultOptions} ></Lottie>
+                    </div>
+                )}
+            </div>
+            </> )}
+            </section>
+            </div>
+        )
+    }
+       </>
     );
 };
 
