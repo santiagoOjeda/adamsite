@@ -33,7 +33,7 @@ const LandingModule = ({
 
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {console.log('mounted LandingModule'); setLoading(false)}, []);
+    useEffect(() => { setLoading(false)}, []);
 
     var styles = {
         color: color,
