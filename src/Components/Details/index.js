@@ -3,6 +3,7 @@ import { MainButton } from "../";
 
 const Detail = ({
   color,
+  btnBgColor,
   textPos,
   textPosLeft,
   titleColor,
@@ -12,18 +13,22 @@ const Detail = ({
   titleBg,
   bgImg
 }) => {
+  let styleTitle = {
+    color: titleColor
+  };
+
   return (
     <section className="detail" style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="detail__left">
         <div className="detail__left__title-container">
-          <h1>{title}</h1>
+          <h1 style={styleTitle}>{title}</h1>
           <img src={titleBg} alt="titleBg" />
         </div>
-        <p>{description}</p>
+        <p style={styleTitle}>{description}</p>
         <MainButton
           buttonText={"btnText"}
-          borderColor={"#000"}
-          bgBtnColor={"#000"}
+          borderColor={titleColor}
+          bgBtnColor={btnBgColor}
         />
       </div>
       <div className="detail__right">

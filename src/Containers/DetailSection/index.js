@@ -12,6 +12,7 @@ import detailHellaslingshotImage from "../../Resources/Images/detail-hellaslings
 import bgDetailsHSS from "../../Resources/Images/bgDetailsHSS.svg";
 import bgTextDetailsHSS from "../../Resources/Images/bgTextDetailsHSS.svg";
 import mockdetailimage from "../../Resources/Images/mockdetailimage.jpg";
+import woodenSlingshot from "../../Resources/Images/wooden-slingshot.jpg";
 import ReactPageScroller from "react-page-scroller";
 
 import TEXT from "../../Resources/texts";
@@ -25,49 +26,77 @@ const DetailSection = props => {
     mockdetailimage
   ];
 
+  let newProductsImgArray = [
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot,
+    woodenSlingshot
+  ];
+
+  let titleColor = "#000";
   let colorPrimary = "#FFF28B";
-  let colorScoundary = "#00C691";
+  let colorSecoundary = "#00C691";
   let colorComplementary = "#FFF28B";
-  let colorScoundaryComplementary = "#fff";
+  let colorSecoundaryComplementary = "#fff";
 
   return (
     <>
       <Header show={showHeader}></Header>
 
-      <ReactPageScroller animationTimer={1000}>
-        <Details
-          titleColor="#000"
-          title={TEXT.DETAIL_SECTION.hellaslingshot.title}
-          description={TEXT.DETAIL_SECTION.hellaslingshot.detail}
-          detailImg={detailHellaslingshotImage}
-          titleBg={bgTextDetailsHSS}
-          bgImg={bgDetailsHSS}
-        />
+      <Details
+        titleColor={colorSecoundary}
+        btnBgColor={colorComplementary}
+        title={TEXT.DETAIL_SECTION.hellaslingshot.title}
+        description={TEXT.DETAIL_SECTION.hellaslingshot.detail}
+        detailImg={detailHellaslingshotImage}
+        titleBg={bgTextDetailsHSS}
+        bgImg={bgDetailsHSS}
+      />
 
-        <CarouselDetail imageArray={imgArray} />
+      <CarouselDetail imageArray={imgArray} />
 
-        <Briefly
-          title={TEXT.DETAIL_SECTION.hellaslingshot.briefly.title}
-          srcYoutube={TEXT.DETAIL_SECTION.hellaslingshot.briefly.srcYoutube}
-          marqueeText={TEXT.DETAIL_SECTION.hellaslingshot.briefly.marqueeText}
-          color1={colorPrimary}
-          color2={colorScoundary}
-          color3={colorComplementary}
-          color4={colorScoundaryComplementary}
-        />
+      <Briefly
+        title={TEXT.DETAIL_SECTION.hellaslingshot.briefly.title}
+        srcYoutube={TEXT.DETAIL_SECTION.hellaslingshot.briefly.srcYoutube}
+        marqueeText={TEXT.DETAIL_SECTION.hellaslingshot.briefly.marqueeText}
+        color1={colorPrimary}
+        color2={colorSecoundary}
+        color3={colorComplementary}
+        color4={colorSecoundaryComplementary}
+      />
 
-        <Products />
-
-        <Briefly
-          title={TEXT.DETAIL_SECTION.hellaslingshot.briefly.title}
-          srcYoutube={TEXT.DETAIL_SECTION.hellaslingshot.briefly.srcYoutube}
-          marqueeText={TEXT.DETAIL_SECTION.hellaslingshot.briefly.marqueeText}
-          color1={colorPrimary}
-          color2={colorScoundary}
-          color3={colorComplementary}
-          color4={colorScoundaryComplementary}
-        />
-      </ReactPageScroller>
+      <Products
+        title={"Products"}
+        showTitle={true}
+        titleBgColor={colorPrimary}
+        titleColor={colorSecoundary}
+        productsImgArray={newProductsImgArray}
+      />
     </>
   );
 };

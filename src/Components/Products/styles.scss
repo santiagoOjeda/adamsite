@@ -1,0 +1,32 @@
+.product {
+    padding: 80px 5% 5% 5%;
+
+    &__title-container {
+        padding-bottom: 30px;
+        h3 {
+            position: absolute;
+            z-index: 2;
+            font-size: 23px;
+            font-family: "PoppinsBlack" !important;
+        }
+    }
+
+    &__items-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        &__img-container {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: unset;
+            padding-top: 2%;
+            
+            img {
+              width: 70%;
+            }
+        }
+    }
+
+    
+}

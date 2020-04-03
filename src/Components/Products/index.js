@@ -1,114 +1,41 @@
 import React from "react";
 
-const Product = () => {
+const Product = ({
+  title,
+  showTitle,
+  titleBgColor,
+  titleColor,
+  productsImgArray
+}) => {
+  let styleBgTitle = {
+    backgroundColor: titleBgColor,
+    width: "80px",
+    height: "30px",
+    position: "relative",
+    top: "22px"
+  };
+  let styleTitle = {
+    color: titleColor
+  };
   return (
-    <div>
-      <ul>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>itddddddddddddddddddddddddddddddddddem</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>idddddddddddddddddddddddddddddddtem</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>itesdssdsdsdsdddddddddddm</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>itedsdsdsm</li>
-        <li>item</li>
-        <li>item</li>
-        <li>idsdsdtem</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>itsdsdsdem</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>isdsdsdsdtem</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>itsdsdsdsdsdsdsdem</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-        <li>item</li>
-      </ul>
-    </div>
+    <section className="product">
+      {showTitle && (
+        <div className="product__title-container">
+          <h3 style={styleTitle}>{title}</h3>
+          <div style={styleBgTitle}></div>
+        </div>
+      )}
+
+      <div className="product__items-container">
+        {productsImgArray.map(i => {
+          return (
+            <div className="product__items-container__img-container" key={i}>
+              <img src={i} alt={i}></img>
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 };
 
