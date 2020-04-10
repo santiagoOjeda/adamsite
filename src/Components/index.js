@@ -11,6 +11,7 @@ import Details from "./Details";
 import CarouselDetail from "./CarouselDetail";
 import Briefly from "./Briefly";
 import Products from "./Products";
+import Banner from "./Banner";
 
 export {
   Header,
@@ -25,5 +26,6 @@ export {
   Details,
   CarouselDetail,
   Briefly,
-  Products
+  Products,
+  Banner
 };

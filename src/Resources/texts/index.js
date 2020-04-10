@@ -1,6 +1,14 @@
 const TEXT = {
-  HOME: {},
-
+  HOME: {
+    menu: [
+      { name: "About", path: "about" },
+      { name: "Hella SlingShot", path: "/hella-slingshot" },
+      { name: "Bycicle Bolts", path: "/bycicle-bolts" },
+      { name: "Surf Brain", path: "/surf-brain" },
+      { name: "Hella More Funner", path: "/hella-more-funner" },
+      { name: "Intrmodl", path: "/intrmodl" },
+    ],
+  },
   DETAIL_SECTION: {
     hellaslingshot: {
       title: "HELLA SLINGSHOTS",
@@ -10,10 +18,10 @@ const TEXT = {
       briefly: {
         title: "Briefly introduction",
         srcYoutube: "https://www.youtube.com/embed/LehvY__pLYY",
-        marqueeText: "SEE STORE NOW!!!"
-      }
-    }
-  }
+        marqueeText: "SEE STORE NOW!!!",
+      },
+    },
+  },
 };
 
 export default TEXT;

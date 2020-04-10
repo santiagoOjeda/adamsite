@@ -10,7 +10,20 @@
     overflow: hidden;
     @include all-ease-custom(.5s);
 
-  
+    a {
+        text-decoration: none;
+    }
+
+    &__replace-logo {
+        display: flex;
+        padding-left: 60px;
+
+        h2 {
+            font-weight: normal;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
 
     &__show {
         background-color: $complementary;
@@ -30,7 +43,7 @@
     }
 
     &__logo {
-        padding: 0px 10px 0px 2%;
+        padding: 0px 10px 0px 60px;
         height: 60px;
 
         @include breakpoint("small"){

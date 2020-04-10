@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135.004" height="135.004" viewBox="0 0 135.004 135.004">
+  <defs>
+    <filter id="Rectángulo_157" x="0" y="0" width="135.004" height="135.004" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1140" data-name="Grupo 1140" transform="translate(-593.327 -7847.498)">
+    <g transform="matrix(1, 0, 0, 1, 593.33, 7847.5)" filter="url(#Rectángulo_157)">
+      <rect id="Rectángulo_157-2" data-name="Rectángulo 157" width="54.004" height="54.004" transform="translate(40.5 33.5)" fill="#00c691"/>
+    </g>
+    <g id="instagram" transform="translate(649.179 7896.35)">
+      <path id="Trazado_289" data-name="Trazado 289" d="M0,4.841V18.46A4.841,4.841,0,0,0,4.841,23.3H18.46A4.841,4.841,0,0,0,23.3,18.46V4.841A4.841,4.841,0,0,0,18.46,0H4.841A4.841,4.841,0,0,0,0,4.841ZM14.119,18.253a7.067,7.067,0,0,1-9.07-9.07A6.685,6.685,0,0,1,9.182,5.048a7.067,7.067,0,0,1,9.07,9.07A6.685,6.685,0,0,1,14.119,18.253ZM19.736,4.6a.91.91,0,0,1-1.6.431.553.553,0,0,1-.048-.063A.912.912,0,0,1,18.056,4a.905.905,0,0,1,1.236-.331.912.912,0,0,1,.453.856.56.56,0,0,1-.009.075Zm0,0" transform="translate(0 0)" fill="#fff28b"/>
+      <path id="Trazado_290" data-name="Trazado 290" d="M170.184,164.523a5.661,5.661,0,1,0,5.661,5.661A5.667,5.667,0,0,0,170.184,164.523Zm0,0" transform="translate(-158.533 -158.533)" fill="#fff28b"/>
+    </g>
+  </g>
+</svg>

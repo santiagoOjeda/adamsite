@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135.004" height="135.004" viewBox="0 0 135.004 135.004">
+  <defs>
+    <filter id="Rectángulo_158" x="0" y="0" width="135.004" height="135.004" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1141" data-name="Grupo 1141" transform="translate(-880.024 -7847.498)">
+    <g transform="matrix(1, 0, 0, 1, 880.02, 7847.5)" filter="url(#Rectángulo_158)">
+      <rect id="Rectángulo_158-2" data-name="Rectángulo 158" width="54.004" height="54.004" transform="translate(40.5 33.5)" fill="#00c691"/>
+    </g>
+    <g id="music-player-play" transform="translate(938.013 7896.708)">
+      <path id="Trazado_70" data-name="Trazado 70" d="M35.6,9.567,20.762.22A2.661,2.661,0,0,0,19.368,0,1.442,1.442,0,0,0,17.73,1.594V20.7a1.459,1.459,0,0,0,1.638,1.592,2.662,2.662,0,0,0,1.395-.218L35.6,12.727c1.218-.725,1.007-1.58,1.007-1.58S36.816,10.292,35.6,9.567Z" transform="translate(-17.73 0)" fill="#fff28b" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

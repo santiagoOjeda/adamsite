@@ -7,7 +7,7 @@ import {
   CarouselDetail,
   Briefly,
   Products,
-  Banner
+  Banner,
 } from "../../Components";
 import detailHellaslingshotImage from "../../Resources/Images/detail-hellaslingshot.svg";
 import bgDetailsHSS from "../../Resources/Images/bgDetailsHSS.svg";
@@ -18,13 +18,13 @@ import ReactPageScroller from "react-page-scroller";
 
 import TEXT from "../../Resources/texts";
 
-const DetailSection = props => {
+const DetailHellaSlingshots = (props) => {
   const [showHeader, setShowHeader] = useState(true);
   const imgArray = [
     mockdetailimage,
     mockdetailimage,
     mockdetailimage,
-    mockdetailimage
+    mockdetailimage,
   ];
 
   let newProductsImgArray = [
@@ -56,7 +56,7 @@ const DetailSection = props => {
     woodenSlingshot,
     woodenSlingshot,
     woodenSlingshot,
-    woodenSlingshot
+    woodenSlingshot,
   ];
 
   let titleColor = "#000";
@@ -68,7 +68,7 @@ const DetailSection = props => {
 
   return (
     <>
-      <Header show={showHeader}></Header>
+      <Header show={showHeader} showLogo={false}></Header>
 
       <Details
         titleColor={colorSecoundary}
@@ -111,4 +111,4 @@ const DetailSection = props => {
   );
 };
 
-export default DetailSection;
+export default DetailHellaSlingshots;

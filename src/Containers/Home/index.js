@@ -19,7 +19,7 @@ import hellaMoreBgProduct from "../../Resources/Images/hella-more-bg-product.svg
 
 import ReactPageScroller from "react-page-scroller";
 
-const Home = props => {
+const Home = (props) => {
   const [{ submenu }, dispatch] = useUIcontextStateValue();
   const [showHeader, setShowHeader] = useState(false);
   const [VerticalIndex, setVerticalIndex] = useState(0);
@@ -27,7 +27,7 @@ const Home = props => {
   const [customPageNumber, setCustomPageNumber] = useState(0);
 
   useEffect(() => {
-    window.onscroll = function() {
+    window.onscroll = function () {
       if (window.pageYOffset === 0) {
         setShowHeader(false);
       } else {
@@ -42,7 +42,7 @@ const Home = props => {
     }
   });
 
-  const showOrHideHeader = number => {
+  const showOrHideHeader = (number) => {
     if (number !== 0) {
       setShowHeader(true);
     } else {
@@ -56,9 +56,9 @@ const Home = props => {
 
   return (
     <section className="home">
-      <Header show={showHeader}></Header>
+      <Header show={showHeader} showLogo={true}></Header>
       <ReactPageScroller
-        pageOnChange={number => {
+        pageOnChange={(number) => {
           showOrHideHeader(number);
         }}
         customPageNumber={customPageNumber}
