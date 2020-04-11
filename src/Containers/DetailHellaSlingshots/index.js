@@ -12,9 +12,9 @@ import {
 import detailHellaslingshotImage from "../../Resources/Images/detail-hellaslingshot.svg";
 import bgDetailsHSS from "../../Resources/Images/bgDetailsHSS.svg";
 import bgTextDetailsHSS from "../../Resources/Images/bgTextDetailsHSS.svg";
+import bgHellaBanner from "../../Resources/Images/bgHellaBanner.svg";
 import mockdetailimage from "../../Resources/Images/mockdetailimage.jpg";
 import woodenSlingshot from "../../Resources/Images/wooden-slingshot.jpg";
-import ReactPageScroller from "react-page-scroller";
 
 import TEXT from "../../Resources/texts";
 
@@ -105,6 +105,7 @@ const DetailHellaSlingshots = (props) => {
         color1={colorPrimary}
         color2={colorSecoundary}
         color3="#fff"
+        bgImg={bgHellaBanner}
         socialMediaUrl={socialMedia}
       />
     </>

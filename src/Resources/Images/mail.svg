@@ -1,22 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135.004" height="135.004" viewBox="0 0 135.004 135.004">
-  <defs>
-    <filter id="Rectángulo_159" x="0" y="0" width="135.004" height="135.004" filterUnits="userSpaceOnUse">
-      <feOffset dy="7" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="13.5" result="blur"/>
-      <feFlood flood-opacity="0.051"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="Grupo_1142" data-name="Grupo 1142" transform="translate(-1140.514 -7847.498)">
-    <g transform="matrix(1, 0, 0, 1, 1140.51, 7847.5)" filter="url(#Rectángulo_159)">
-      <rect id="Rectángulo_159-2" data-name="Rectángulo 159" width="54.004" height="54.004" transform="translate(40.5 33.5)" fill="#00c691"/>
-    </g>
-    <g id="black-envelope" transform="translate(1195.271 7898.919)">
-      <g id="Grupo_189" data-name="Grupo 189" transform="translate(0 0)">
-        <path id="Trazado_287" data-name="Trazado 287" d="M2.158,5.228l9.14,7.24a2.325,2.325,0,0,0,1.54.446,2.319,2.319,0,0,0,1.539-.446l9.14-7.24c.732-.577.567-1.049-.363-1.049H2.524C1.594,4.179,1.428,4.652,2.158,5.228Z" transform="translate(-0.152 -4.179)" fill="#fff28b"/>
-        <path id="Trazado_288" data-name="Trazado 288" d="M24.027,7.4l-9.988,7.583a2.425,2.425,0,0,1-2.7,0L1.348,7.4C.607,6.838,0,7.14,0,8.07V20.512A1.7,1.7,0,0,0,1.692,22.2H23.683a1.7,1.7,0,0,0,1.692-1.692V8.07C25.375,7.14,24.768,6.838,24.027,7.4Z" transform="translate(0 -4.441)" fill="#fff28b"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 54 54" style="enable-background:new 0 0 54 54;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Rectángulo_159);}
+	.st1{fill:#00C691;}
+	.st2{fill:#FFF28B;}
+</style>
+<filter  filterUnits="userSpaceOnUse" height="135.004" id="Rectángulo_159" width="135.004" x="0" y="0">
+	<feOffset  dy="7" input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="13.5"></feGaussianBlur>
+	<feFlood  flood-opacity="0.051"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g id="Grupo_1142" transform="translate(-1140.514 -7847.498)">
+	<g transform="matrix(1, 0, 0, 1, 1140.51, 7847.5)" class="st0">
+		<rect id="Rectángulo_159-2_1_" x="0" y="0" class="st1" width="54" height="54"/>
+	</g>
+	<g id="black-envelope" transform="translate(1195.271 7898.919)">
+		<g id="Grupo_189" transform="translate(0 0)">
+			<path id="Trazado_287" class="st2" d="M-38.5-32.5l9.1,7.2c0.4,0.3,1,0.5,1.5,0.4c0.5,0,1.1-0.1,1.5-0.4l9.1-7.2
+				c0.7-0.6,0.6-1-0.4-1h-20.6C-39.1-33.5-39.2-33-38.5-32.5z"/>
+			<path id="Trazado_288" class="st2" d="M-16.5-30.5l-10,7.6c-0.8,0.5-1.9,0.5-2.7,0l-10-7.6c-0.7-0.6-1.3-0.3-1.3,0.7v12.4
+				c0,0.9,0.8,1.7,1.7,1.7h22c0.9,0,1.7-0.8,1.7-1.7v-12.4C-15.1-30.8-15.7-31.1-16.5-30.5z"/>
+		</g>
+	</g>
+</g>
 </svg>
