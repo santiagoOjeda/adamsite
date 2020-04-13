@@ -13,7 +13,6 @@ const Banner = ({ title, bgImg, color1, color2, color3, socialMediaUrl }) => {
           style={{ borderColor: color1, backgroundColor: color2 }}
         >
           <h1 style={{ color: color1 }}>{title}</h1>
-          <h1 style={{ color: color3 }}>{title}</h1>
         </div>
       </header>
       <FooterLinks

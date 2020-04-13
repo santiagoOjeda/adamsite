@@ -21,6 +21,17 @@ const TEXT = {
         marqueeText: "SEE STORE NOW!!!",
       },
     },
+    bicyclebolts: {
+      title: "BICYCLE BOLTS",
+      detail:
+        "Mission: We make metric security bolts. Our intended use and mission is to help keep components on your bicycle safe from opportunistic thievery. Simply replace the existing Allen bolts with our security bolts. Each set comes with an L- key. The use of these bolts will drastically reduce the chances of a thief making off with your saddle, seatpost, stem, handlebars, wheels and other components. ",
+      button: "SEE STORE",
+      briefly: {
+        title: "Briefly introduction",
+        srcYoutube: "https://www.youtube.com/embed/LehvY__pLYY",
+        marqueeText: "SEE STORE NOW!!!",
+      },
+    },
   },
 };
 

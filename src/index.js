@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./Resources/Lib/Normalize/normalize.css";
 import "./Styles/main.scss";
-import { Home, DetailHellaSlingshots } from "./Containers";
+import { Home, DetailHellaSlingshots, BicycleBolts } from "./Containers";
 import { Header } from "./Components";
 import { UIcontextProvider } from "./Store/UiContext";
 
@@ -19,6 +19,7 @@ const App = () => {
             path="/hella-slingshot"
             component={DetailHellaSlingshots}
           />
+          <Route exact path="/bycicle-bolts" component={BicycleBolts} />
         </Switch>
       </Router>
     </UIcontextProvider>

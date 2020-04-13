@@ -11,10 +11,10 @@ const Detail = ({
   description,
   title,
   titleBg,
-  bgImg
+  bgImg,
 }) => {
   let styleTitle = {
-    color: titleColor
+    color: titleColor,
   };
 
   return (
