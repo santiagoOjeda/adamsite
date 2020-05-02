@@ -1,0 +1,48 @@
+.about {
+    &__desktop {
+        &__container {
+            background-color: #253752;
+            width: 100%;
+            height: 90vh;
+            display: flex;
+        }
+
+        &__left {
+            width: 60%;
+            padding: 7%;
+            color:#fff;
+
+            &__container {
+                &__title-container {
+                    h1 {
+                        color:#6140FF;
+                        margin-bottom: 10px;
+                    }
+                    h2{
+                        font-size: 16px;
+                        color:#30F2D4;
+                        font-weight: lighter;
+                        letter-spacing: 2px;
+                    }
+                }
+
+                &__p {
+                    font-size: 12px;
+                    line-height: 40px;
+                    width: 70%;
+                }
+            }
+        }
+
+        &__right {
+            width: 40%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

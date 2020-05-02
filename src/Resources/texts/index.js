@@ -9,6 +9,17 @@ const TEXT = {
       { name: "Intrmodl", path: "/intrmodl" },
     ],
   },
+  ABOUT: {
+    title: "OH HEY!",
+    subtitle: "Yeah, so a little about me",
+    p:
+      "I grew up in the woods of Northern California. I’m the middle child of 3 red headed brothers and got my first slingshot when I was 4 years old. We had a hay bale target range in back that we directed a growing arsenal of projectile weapons at. If we weren’t shooting targets and building forts, we were hiking around the hills or swimming in the lake. We had bows, crossbows, bb guns, 22’s and paint ball guns but the slingshot was tops. ",
+    detail_1: "MFA from RISD, 2010",
+    detail_2: "BA from UCLA, 2007",
+    detail_3: "Living in San Francisco",
+    mailTo: "MAIL TO WORK",
+    mail: "ok@adam-gray.com",
+  },
   DETAIL_SECTION: {
     hellaslingshot: {
       title: "HELLA SLINGSHOTS",
