@@ -19,6 +19,9 @@ import hellaMoreBgProduct from "../../Resources/Images/hella-more-bg-product.svg
 
 import ReactPageScroller from "react-page-scroller";
 
+import TEXT from "../../Resources/texts";
+const { HOME } = TEXT;
+
 const Home = (props) => {
   const [{ submenu }, dispatch] = useUIcontextStateValue();
   const [showHeader, setShowHeader] = useState(false);
@@ -67,11 +70,12 @@ const Home = (props) => {
         <section name="landing" className="home__landing" id="1">
           <Logo />
           <div className="home__landing__container-text">
-            <h1>Welcome</h1>
+            <h1>{HOME.text1}</h1>
             <div>
               <h5>
-                <span>TO ADAM'S GRAY</span>
-                <br></br> WEBSITE
+                <span>{HOME.text2}</span>
+                <br></br>
+                {HOME.text3}
               </h5>
             </div>
           </div>
@@ -97,6 +101,7 @@ const Home = (props) => {
           height="1000px"
           isThreeDimensional={true}
           isMobile={sizeIsMobile}
+          model3dSelected="sligshot"
         />
 
         <LandingModule
@@ -119,6 +124,7 @@ const Home = (props) => {
           textPos="185px"
           isThreeDimensional={true}
           isMobile={sizeIsMobile}
+          model3dSelected="sligshot"
         />
 
         <LandingModule
@@ -138,6 +144,7 @@ const Home = (props) => {
           buttonText="text"
           isThreeDimensional={true}
           isMobile={sizeIsMobile}
+          model3dSelected="sligshot"
         />
 
         <LandingModule
@@ -162,6 +169,7 @@ const Home = (props) => {
           buttonText="text"
           isThreeDimensional={false}
           isMobile={sizeIsMobile}
+          model3dSelected=""
         />
         <LandingModule
           id="5"
@@ -183,6 +191,7 @@ const Home = (props) => {
           buttonText="text"
           isThreeDimensional={false}
           isMobile={sizeIsMobile}
+          model3dSelected=""
         />
       </ReactPageScroller>
     </section>

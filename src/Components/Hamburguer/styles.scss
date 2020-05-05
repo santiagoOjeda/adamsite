@@ -16,7 +16,6 @@
     @include all-ease-custom(.2s);
 
     @include breakpoint ("small"){ 
-        right: 15px;
         top: 15px;
     }
     

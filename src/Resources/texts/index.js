@@ -1,5 +1,8 @@
 const TEXT = {
   HOME: {
+    text1: "Welcome",
+    text2: "TO ADAM'S GRAY",
+    text3: "WEBSITE",
     menu: [
       { name: "About", path: "about" },
       { name: "Hella SlingShot", path: "/hella-slingshot" },
