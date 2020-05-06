@@ -61,7 +61,6 @@ const BicycleBolts = (props) => {
     woodenSlingshot,
   ];
 
-  let titleColor = "#000";
   let colorPrimary = "#6140FF";
   let colorSecoundary = "#69DEBC";
   let colorComplementary = "#69DEBC";

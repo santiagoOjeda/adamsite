@@ -9,10 +9,10 @@
         justify-content: center;
         align-items: center;
 
+       
         @include breakpoint("small"){
-            display: none;
+            height: 15vh;
         }
-
         a {
             display: flex;
             margin-right: 13px;
@@ -22,6 +22,9 @@
 
         p {
             font-family: "PoppinsBlack" ;
+            @include breakpoint("small"){
+                display: none;
+            }
         }
 
         &__icon-container {

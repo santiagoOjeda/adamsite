@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
+// context
 import { useUIcontextStateValue } from "../../Store/UiContext";
+// components
 import { Header, Logo, LandingModule, Menu, UpDown } from "../../Components";
+// images
 import hellaBG from "../../Resources/Images/hellaBG.svg";
 import hellaProductBG from "../../Resources/Images/hellaProductBG.svg";
 import bicycleBG from "../../Resources/Images/bicycleBG.svg";
@@ -16,9 +19,9 @@ import intmdBg from "../../Resources/Images/intmdBg.svg";
 import intermoicon from "../../Resources/Images/intermoicon.svg";
 import intIcon from "../../Resources/Images/intIcon.svg";
 import hellaMoreBgProduct from "../../Resources/Images/hella-more-bg-product.svg";
-
+// library
 import ReactPageScroller from "react-page-scroller";
-
+// texts
 import TEXT from "../../Resources/texts";
 const { HOME } = TEXT;
 
@@ -28,6 +31,7 @@ const Home = (props) => {
   const [VerticalIndex, setVerticalIndex] = useState(0);
   const [sizeIsMobile, setSizeIsMobile] = useState(false);
   const [customPageNumber, setCustomPageNumber] = useState(0);
+  const [pageIndex, setPageIndex] = useState(0);
 
   useEffect(() => {
     window.onscroll = function () {
@@ -53,6 +57,16 @@ const Home = (props) => {
     }
   };
 
+  const changeIndex = (direction) => {
+    if (direction == "up") {
+      if (customPageNumber != 0) {
+        setCustomPageNumber(customPageNumber - 1);
+      }
+    } else {
+      setCustomPageNumber(customPageNumber + 1);
+    }
+  };
+
   const icon = require("../../Resources/Animations/adam.json");
 
   const lottieLaptop = require("../../Resources/Animations/laptop.json");
@@ -60,9 +74,11 @@ const Home = (props) => {
   return (
     <section className="home">
       <Header show={showHeader} showLogo={true}></Header>
+      <UpDown click={changeIndex} />
       <ReactPageScroller
         pageOnChange={(number) => {
           showOrHideHeader(number);
+          setPageIndex(number);
         }}
         customPageNumber={customPageNumber}
         animationTimer={1000}
@@ -171,6 +187,7 @@ const Home = (props) => {
           isMobile={sizeIsMobile}
           model3dSelected=""
         />
+
         <LandingModule
           id="5"
           idThreejs="intrmodl"

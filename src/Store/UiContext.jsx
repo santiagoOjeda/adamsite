@@ -5,7 +5,8 @@ export const UIcontext = createContext();
 
 // creo initial state
 const initialState = {
-    submenu: false 
+    submenu: false,
+    indexHome: 0 
 };
 
 // creo el reducer
@@ -15,6 +16,12 @@ const reducer = (state, action) => {
         return {
             ...state,
             submenu: action.payload.submenu
+        };
+
+        case 'saveIndexHome':
+        return {
+            ...state, 
+            indexHome: action.payload.indexHome 
         };
         
         default:
