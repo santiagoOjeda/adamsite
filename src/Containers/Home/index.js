@@ -178,7 +178,7 @@ const Home = (props) => {
           buttonBorderColor="#F26941"
           bgBtnColor="#FFE848"
           color="#F26941"
-          iconLottie={lottieLaptop}
+          iconLottie={icon}
           textPos="195px"
           textPosLeft="50px"
           iconImg={intermoicon}

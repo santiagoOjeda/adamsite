@@ -96,7 +96,7 @@ const LandingModule = ({
                     paddingTop: "0vh",
                     overflow: "hidden",
                     height: "100vh",
-                    width: "50%",
+                    width: "100%",
                   }}
                 >
                   <Lottie width="100%" options={defaultOptions}></Lottie>
