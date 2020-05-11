@@ -11,6 +11,16 @@
             flex-direction: column;
         }
 
+        &__mobile-text-scroll{
+            text-align: center;
+            color: #fff;
+            font-weight: 400;
+            font-size: 13px;
+            letter-spacing: 2px;
+            position: relative;
+            bottom: 36px;
+        }
+
         &__container-logo {
             display: flex;
             justify-content: center;

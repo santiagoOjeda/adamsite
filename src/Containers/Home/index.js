@@ -85,6 +85,7 @@ const Home = (props) => {
       >
         <section name="landing" className="home__landing" id="1">
           <Logo />
+          <h6 className="home__landing__mobile-text-scroll">SCROLL TO START</h6>
           <div className="home__landing__container-text">
             <h1>{HOME.text1}</h1>
             <div>
