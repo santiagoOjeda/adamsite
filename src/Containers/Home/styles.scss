@@ -19,6 +19,11 @@
             letter-spacing: 2px;
             position: relative;
             bottom: 36px;
+            display: none;
+
+            @include breakpoint ("small"){ 
+                display: block;
+            }
         }
 
         &__container-logo {

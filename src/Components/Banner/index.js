@@ -6,7 +6,11 @@ const Banner = ({ title, bgImg, color1, color2, color3, socialMediaUrl }) => {
   return (
     <section className="banner">
       <header
-        style={{ backgroundColor: color2, backgroundImage: `url(${bgImg})` }}
+        style={{
+          backgroundColor: color2,
+          backgroundImage: `url(${bgImg})`,
+          backgroundSize: "contain",
+        }}
       >
         <div
           className="banner__title-container"
