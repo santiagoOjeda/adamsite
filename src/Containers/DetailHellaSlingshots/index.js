@@ -75,6 +75,7 @@ const DetailHellaSlingshots = (props) => {
         btnBgColor={colorComplementary}
         title={TEXT.DETAIL_SECTION.hellaslingshot.title}
         description={TEXT.DETAIL_SECTION.hellaslingshot.detail}
+        btnText={TEXT.DETAIL_SECTION.hellaslingshot.button}
         detailImg={detailHellaslingshotImage}
         titleBg={bgTextDetailsHSS}
         bgImg={bgDetailsHSS}
@@ -104,7 +105,8 @@ const DetailHellaSlingshots = (props) => {
         title="SEE STORE NOW!!!"
         color1={colorPrimary}
         color2={colorSecoundary}
-        color3="#fff"
+        color3="#FFF28B"
+        color4="rgb(255, 255, 255) 2px 5px 0px"
         bgImg={bgHellaBanner}
         socialMediaUrl={socialMedia}
       />

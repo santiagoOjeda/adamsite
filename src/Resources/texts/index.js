@@ -46,6 +46,17 @@ const TEXT = {
         marqueeText: "SEE STORE NOW!!!",
       },
     },
+    surfbrains: {
+      title: "SURF BRAIN",
+      detail:
+        "My name is Adam Gray and I grew up spending summers surfing and kayaking in Stinson and Bolinas CA. I’m the middle child of 3 red headed brothers and got my my first boogie when I was 4. I’ve been wiping out and getting sunburned ever since. Sadly I’m not the most talented surfer. I don’t like the feel or look of a full helmet. So I decided to make something in between no protection and reasonable protection that looks like a hat.",
+      button: "SEE PROJECT",
+      briefly: {
+        title: "Briefly introduction",
+        srcYoutube: "https://www.youtube.com/embed/LehvY__pLYY",
+        marqueeText: "SEE STORE NOW!!!",
+      },
+    },
   },
 };
 

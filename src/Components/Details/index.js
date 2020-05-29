@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MainButton } from "../";
 
 const Detail = ({
@@ -12,9 +12,15 @@ const Detail = ({
   title,
   titleBg,
   bgImg,
+  pColor,
+  btnText,
+  btnBorderColor,
 }) => {
   let styleTitle = {
     color: titleColor,
+  };
+  let styleColor = {
+    color: pColor,
   };
 
   return (
@@ -24,10 +30,14 @@ const Detail = ({
           <h1 style={styleTitle}>{title}</h1>
           <img src={titleBg} alt="titleBg" />
         </div>
-        <p style={styleTitle}>{description}</p>
+        <p style={pColor != undefined ? styleColor : styleTitle}>
+          {description}
+        </p>
         <MainButton
-          buttonText={"btnText"}
-          borderColor={titleColor}
+          buttonText={btnText}
+          borderColor={
+            btnBorderColor != undefined ? btnBorderColor : titleColor
+          }
           bgBtnColor={btnBgColor}
         />
       </div>

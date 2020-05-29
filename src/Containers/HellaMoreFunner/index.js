@@ -8,16 +8,16 @@ import {
   Banner,
 } from "../../Components";
 
-import detailBicycleBoltsImage from "../../Resources/Images/detailBicycleBoltsImage.svg";
-import bgDetailsBB from "../../Resources/Images/bgDetailsBB.svg";
+import surfbrainslogo from "../../Resources/Images/surfbrainslogo.svg";
+import bgsurfbrains from "../../Resources/Images/bgsurfbrains.svg";
 import bgTextDetailsBB from "../../Resources/Images/bgTextDetailsBB.svg";
-import bgHellaBanner from "../../Resources/Images/bgbb.svg";
+import bgEndsurfbrains from "../../Resources/Images/bgEndsurfbrains.svg";
 import mockdetailimage from "../../Resources/Images/mockdetailimage.jpg";
 import woodenSlingshot from "../../Resources/Images/wooden-slingshot.jpg";
 
 import TEXT from "../../Resources/texts";
 
-const BicycleBolts = (props) => {
+const HellaMoreFunner = (props) => {
   const [showHeader, setShowHeader] = useState(true);
   const imgArray = [
     mockdetailimage,
@@ -60,7 +60,6 @@ const BicycleBolts = (props) => {
 
   let colorPrimary = "#6140FF";
   let colorSecoundary = "#69DEBC";
-  let colorComplementary = "#69DEBC";
   let socialMedia = { instagram: "", youtube: "", email: "" };
 
   return (
@@ -69,13 +68,15 @@ const BicycleBolts = (props) => {
 
       <Details
         titleColor={colorPrimary}
-        btnBgColor={colorComplementary}
-        title={TEXT.DETAIL_SECTION.bicyclebolts.title}
-        description={TEXT.DETAIL_SECTION.bicyclebolts.detail}
-        btnText={TEXT.DETAIL_SECTION.bicyclebolts.button}
-        detailImg={detailBicycleBoltsImage}
+        btnBgColor={colorSecoundary}
+        pColor={colorSecoundary}
+        btnBorderColor={colorSecoundary}
+        title={TEXT.DETAIL_SECTION.surfbrains.title}
+        description={TEXT.DETAIL_SECTION.surfbrains.detail}
+        btnText={TEXT.DETAIL_SECTION.surfbrains.button}
+        detailImg={surfbrainslogo}
         titleBg={bgTextDetailsBB}
-        bgImg={bgDetailsBB}
+        bgImg={bgsurfbrains}
       />
 
       <CarouselDetail imageArray={imgArray} />
@@ -84,9 +85,9 @@ const BicycleBolts = (props) => {
         title={TEXT.DETAIL_SECTION.hellaslingshot.briefly.title}
         srcYoutube={TEXT.DETAIL_SECTION.hellaslingshot.briefly.srcYoutube}
         marqueeText={TEXT.DETAIL_SECTION.hellaslingshot.briefly.marqueeText}
-        color1={"#6140FF"}
-        color2={"#BEF7FF"}
-        color3={"#69DEBC"}
+        color1={colorSecoundary}
+        color2={colorPrimary}
+        color3={colorSecoundary}
         color4={"#fff"}
       />
 
@@ -100,15 +101,17 @@ const BicycleBolts = (props) => {
 
       <Banner
         title="SEE STORE NOW!!!"
-        color1="#6140FF"
-        color2="#BEF7FF"
-        color3="#69DEBC"
+        color1={colorSecoundary}
+        color2={"#2AD9B1"}
+        color3={colorSecoundary}
+        bgText={colorPrimary}
+        footerColor={colorPrimary}
         color4="rgb(255, 255, 255) 2px 5px 0px"
-        bgImg={bgHellaBanner}
+        bgImg={bgEndsurfbrains}
         socialMediaUrl={socialMedia}
       />
     </>
   );
 };
 
-export default BicycleBolts;
+export default HellaMoreFunner;
